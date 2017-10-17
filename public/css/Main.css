@@ -54,7 +54,7 @@ header {
 
 }
 
-.best-leader-menu {
+.section-title {
     width: 300px;
     margin-left: 250px;
     font-weight: bold;
@@ -70,21 +70,61 @@ header {
 }
 
 
-.best-leader {
+.section-body {
+
     width: 1000px;
-    height: 500px;
+    height: 400px;
     background: #FFCD00;
     border: 1px solid #fff;
     margin: 10px 200px 50px 250px;
 }
 
+.section-body > ul {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
+
 #user-icon {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     background-size: cover;
-    text-align: center;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-left: 100px;
+    margin-right: 50px;
+}
+
+#leader-study-ing  >li {
+    margin-bottom: 15px;
+    margin-left: 5px;
+
+}
+
+
+
+.ing-study {
+    height: 250px;
+    width: 280px;
+    border: 1px solid;
+    background-color: #FFB900;
+    font-size: 10px;
+    display: inline-block;
+    margin: 60px 0px 30px 35px;
+
+}
+
+.ing-study >Ul > li {
+    font-size: 12px;
+
+}
+
+.ing-study-avatar {
+    border-radius: 50px;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
 
 
 }
