@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="semantic/semantic.css">
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+             <script src="semantic/semantic.js"></script>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/Main.css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -8,93 +14,176 @@
 </head>
 <body>
 
-<section class="main-section">
+<section class="main-section" >
     <div class="Main-Logo">CodingStudy</div>
     <div class="Main-menu">
     <ul class="Main-login">
+        <li>About</li>
         <li>로그인</li>
         <li>회원가입</li>
+        <li class="ui icon input">
+            <input type="text" placeholder="Search...">
+            <i class="inverted circular search link icon"></i>
+        </li>
     </ul>
     </div>
-</section>
-
-<section>
     <div class="main-image-section">
-        <img class="main-img" src="./img/bananacoding_thumb.jpg">
+
+        <img class="main-img" src="./img/coding.jpg">
     </div>
 </section>
 
 <section>
-    <div class="leader-body">
-    <div class="section-title">베스트 리더</div>
+        <div class="section-title">베스트 리더</div>
             <div class="section-body">
-                <ul>
-                    <li id="user-icon" style="background-image: url(/img/user0.jpeg)"></li>
-                 </ul>
-
-                <ul id="leader-info">
-                    <li>저에게 오시면 코딩천재로 만들어드립니다.</li><br>
-                    <li>이름 : 잡스</li><br>
-                    <li>강의언어 : Java, JavaScript, Python</li><br>
-                    <li>경력 : Samsung, LG, Apple</li><br>
-                    <li>소개 : 정말 잘합니다.</li><br>
-                </ul>
-
-                <ul id="leader-study-ing">
-                    <li class="ing-study-title"><h1>현재 진행중인 스터디</h1></li>
-                    <li>스터디 내용 : JavaScript</li>
-                    <li>스터디 리더 : 홍길동</li>
-                    <li>스터디 수준 : 입문</li>
-                    <li>지역 : 서울시 강남구 강남대로</li>
-                    <li>현재 인원 4 / 5</li>
-
-                    <li>리더에게 쪽지보내기 <i class="fa fa-envelope-o" aria-hidden="true"></i></li>
-
-                </ul>
+                <div class="best-leader-card">
+                <div class="ui card">
+                    <div class="image">
+                        <img src="img/javaSC.JPG">
+                    </div>
+                    <div class="content">
+                        <div class="header">JavaScript의 신!</div>
+                        <div class="description">
+                         자바스크립트의 신! <BR>김흥부와 함께하는 초보자 입문수업
+                        </div>
+                    </div>
+                    <div class="ui two bottom attached buttons">
+                        <div class="ui button">
+                            즐겨찾기 추가
+                        </div>
+                        <div class="ui primary button">
+                            자세히 보기
+                        </div>
+                    </div>
+                </div>
+                <div class="ui popup">
+                    <div class="header">User Rating</div>
+                    <div class="ui star rating" data-rating="3"></div>
+                </div>
+                </div>
+                <div class="best-leader-card">
+                    <div class="ui card">
+                        <div class="image">
+                            <img src="img/javaSC.JPG">
+                        </div>
+                        <div class="content">
+                            <div class="header">JavaScript의 신!</div>
+                            <div class="description">
+                                자바스크립트의 신! <br>김흥부와 함께하는 초보자 입문수업
+                            </div>
+                        </div>
+                        <div class="ui two bottom attached buttons">
+                            <div class="ui button">
+                                즐겨찾기 추가
+                            </div>
+                            <div class="ui primary button">
+                                자세히 보기
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui popup">
+                        <div class="header">User Rating</div>
+                        <div class="ui star rating" data-rating="3"></div>
+                    </div>
+                </div>
+                <div class="best-leader-card">
+                    <div class="ui card">
+                        <div class="image">
+                            <img src="img/javaSC.JPG">
+                        </div>
+                        <div class="content">
+                            <div class="header">JavaScript의 신!</div>
+                            <div class="description">
+                                자바스크립트의 신! <br>김흥부와 함께하는 초보자 입문수업
+                            </div>
+                        </div>
+                        <div class="ui two bottom attached buttons">
+                            <div class="ui button">
+                                즐겨찾기 추가
+                            </div>
+                            <div class="ui primary button">
+                                자세히 보기
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui popup">
+                        <div class="header">User Rating</div>
+                        <div class="ui star rating" data-rating="3"></div>
+                    </div>
+                </div>
 
             </div>
-    </div>
+
 </section>
 <section>
     <div class="section-title">현재 진행중인 Study</div>
+    </div>
+
     <div class="section-body">
           <div class="ing-study-section">
-            <div class="ing-study">
-                <div class="ing-study-avatar" style="background-image: url(img/Avatar.png)"></div>
-                <ul class="ing-study-info">
-                    <li>스터디 내용 : JavaScript</li>
-                    <li>스터디 리더 :  홍길동</li>
-                    <li>스터디 수준 : 입문</li>
-                    <li>지역 : 서울시 강남구</li>
-                    <li>현재인원 : 4 / 5</li>
-                    <li>리더에게 쪽지보내기 <i class="fa fa-envelope-o" aria-hidden="true"></i></li>
-                </ul>
-            </div>
-              <div class="ing-study">
-                  <div class="ing-study-avatar" style="background-image: url(img/Avatar.png)"></div>
-                  <ul class="ing-study-info">
-                      <li>스터디 내용 : JavaScript</li>
-                      <li>스터디 리더 :  홍길동</li>
-                      <li>스터디 수준 : 입문</li>
-                      <li>지역 : 서울시 강남구</li>
-                      <li>현재인원 : 4 / 5</li>
-                      <li>리더에게 쪽지보내기 <i class="fa fa-envelope-o" aria-hidden="true"></i></li>
-                  </ul>
+              <div class="ui three stackable cards">
+                  <div class="card">
+                      <div class="image">
+                          <img src="img/java.png">
+                      </div>
+                  </div>
+                  <div class="card">
+                      <div class="image">
+                          <img src="img/bananacoding_thumb.jpg">
+                      </div>
+                  </div>
+                  <div class="card">
+                      <div class="image">
+                          <img src="img/coding.jpg">
+                      </div>
+                  </div>
+                  <div class="card">
+                      <div class="image">
+                          <img src="img/node%20(1).png">
+                      </div>
+                  </div>
+                  <div class="card">
+                      <div class="image">
+                          <img src="img/javaSC.JPG">
+                      </div>
+                  </div>
+                  <div class="card">
+                      <div class="image">
+                          <img src="img/java.png">
+                      </div>
+                  </div>
               </div>
-              <div class="ing-study">
-                  <div class="ing-study-avatar" style="background-image: url(img/Avatar.png)"></div>
-                  <ul class="ing-study-info">
-                      <li>스터디 내용 : JavaScript</li>
-                      <li>스터디 리더 :  홍길동</li>
-                      <li>스터디 수준 : 입문</li>
-                      <li>지역 : 서울시 강남구</li>
-                      <li>현재인원 : 4 / 5</li>
-                      <li>리더에게 쪽지보내기 <i class="fa fa-envelope-o" aria-hidden="true"></i></li>
-                  </ul>
-              </div>
-
-          </div>
     </div>
+    </div>
+</section>
+<section>
+    <div class="study-review-body">
+    <div class="section-title">Study 후기</div>
+    <div class="section-body">
+        <div class="study-review-body">
+            <div class="study-review">
+            <img class="ui avatar image" src="img/Avatar.png">
+            <span>Username</span>
+            </div>
+    </div>
+        <div class="study-review-body">
+            <div class="study-review">
+                <img class="ui avatar image" src="img/Avatar.png">
+                <span>Username</span>
+            </div>
+        </div>
+        <div class="study-review-body">
+            <div class="study-review">
+                <img class="ui avatar image" src="img/Avatar.png">
+                <span>Username</span>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+
 </section>
 
 
