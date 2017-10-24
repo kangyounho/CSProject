@@ -16,6 +16,29 @@ body {
 
 }
 
+footer {
+
+
+}
+
+span {
+    font-size: 28px;
+    line-height: 30px;
+
+}
+
+
+
+
+.ui-button {
+   width: 130px;
+
+}
+
+.button-ui {
+    width: 230px;
+
+}
 
 
 .Main-Logo {
@@ -57,60 +80,48 @@ body {
     border-bottom: solid 1px #293a46;
 }
 
+.header-section {
+    font-size: 2em;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.87);;
+
+}
 
 .section-body {
     padding-left: 30px;
     width: 1000px;
-    height: 600px;
+    height: 700px;
     background: #fff;
-    margin: 10px 200px 50px 250px;
+    margin: 30px 200px 60px 250px;
     display: inline-block;
+    border-top: 1px solid #CACBCD;
 
 
 }
 
-.best-leader-card {
-    margin-top: 30px;
-    margin-left: 20px;
-    height: 300px;
-    width: 300px;
+.best-reader-header {
+    font-size: 10px;
+    line-height: 15px;
+
+}
+
+
+.best-reader-title {
+    margin-top: 100px;
     text-align: center;
-    display: inline-block;
-
-
-}
-
-.best-leader-photo {
-    display: inline-block;
-
-}
-
-.best-leader-info {
+    font-size: 50px;
     font-weight: bold;
-    color: #293a46;
-    text-align: center;
-    font-size: 16px;
-    margin-top: 30px;
+    color: #717579;
 
 }
 
-.best-leader-typing {
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 1.4;
-    color: #293a46;
+.ing-study-title {
     text-align: center;
-    margin-top: 50px;
-
-}
-
-.best-leader-typing-title {
-    text-align: center;
-    font-size: 22px;
+    color: #717579;
+    font-size: 20px;
+    font-weight: bold;
     margin-top: 30px;
-    color: dimgrey;
-
-
+    margin-bottom: 50px;
 }
 
 
@@ -126,59 +137,175 @@ body {
 
 }
 
-
-
-#leader-study-ing  >li {
-    margin-bottom: 15px;
-    margin-left: 5px;
-
-}
-
-
-
 .ing-study {
-    height: 250px;
-    width: 280px;
-    border: 1px solid;
+    width: 300px;
+    height: 350px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 50px;
+
+
+}
+
+.ing-study-body {
+
+    margin-bottom: 250px;
+}
+
+
+.reader-wanted-focus {
+
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+
+.header-section {
+    margin-bottom: 10px;
+
+}
+
+
+.reader-wanted {
+    text-align: center;
+}
+
+.reader-wanted-img {
+    text-align: center;
+    height: 400px;
+    width: 700px;
+    border-radius: 5px;
+    box-shadow: #717579;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ui.cards > .card, .ui.card {
+    text-align: center;
+    width: 1000px;
+}
+.ui.cards > .card, .ui.card:hover {
     background-color: #fff;
-    font-size: 10px;
-    margin: 60px 10px 30px 30px;
-    display: inline-block;
+}
 
+
+.leader-img {
+    text-align: right;
+    float: right;
+    height: 350px;
+    border-radius: 5px;
+}
+
+
+.ui .button {
+
+    margin-top: 100px;
+    width: 400px;
+}
+
+.content {
+    font-size: 13px;
+    line-height: 2em;
+    text-align: center;
 }
 
 
 
 
 
-.ing-study-info {
-    display: inline-block;
-    margin-left: 30px;
-    font-size: 12px;
-    line-height: 22px;
-    font-weight: bold;
 
 
+
+
+
+.hidden.menu {
+    display: none;
+}
+.masthead.segment {
+    min-height: 700px;
+    padding: 1em 0em;
+}
+.masthead .logo.item img {
+    margin-right: 1em;
+}
+.masthead .ui.menu .ui.button {
+    margin-left: 0.5em;
+}
+.masthead h1.ui.header {
+    margin-top: 3em;
+    margin-bottom: 0em;
+    font-size: 4em;
+    font-weight: normal;
+}
+.masthead h2 {
+    font-size: 1.7em;
+    font-weight: normal;
+}
+.ui.vertical.stripe {
+    padding: 8em 0em;
+}
+.ui.vertical.stripe h3 {
+    font-size: 2em;
+}
+.ui.vertical.stripe .button + h3,
+.ui.vertical.stripe p + h3 {
+    margin-top: 3em;
+}
+.ui.vertical.stripe .floated.image {
+    clear: both;
+}
+.ui.vertical.stripe p {
+    font-size: 1.33em;
+}
+.ui.vertical.stripe .horizontal.divider {
+    margin: 3em 0em;
+}
+.quote.stripe.segment {
+    padding: 0em;
+}
+.quote.stripe.segment .grid .column {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+.footer.segment {
+    padding: 5em 0em;
+}
+.secondary.pointing.menu .toc.item {
+    display: none;
+}
+@media only screen and (max-width: 700px) {
+    .ui.fixed.menu {
+        display: none !important;
+    }
+    .secondary.pointing.menu .item,
+    .secondary.pointing.menu .menu {
+        display: none;
+    }
+    .secondary.pointing.menu .toc.item {
+        display: block;
+    }
+    .masthead.segment {
+        min-height: 350px;
+    }
+    .masthead h1.ui.header {
+        font-size: 2em;
+        margin-top: 1.5em;
+    }
+    .masthead h2 {
+        margin-top: 0.5em;
+        font-size: 1.5em;
+    }
 }
 
-.study-review {
-
-    height: 50px;
-    width: 50px;
-    background-size: cover;
-    border-radius: 50px;
-
-}
-
-.study-review-icon > li {
-
-    margin-bottom: 20px;
-    margin-top: 50px;
-    margin-left: 30px;
-
-}
-
-.study-review-body {
-    margin-top: 50px;
-
-}

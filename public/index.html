@@ -1,192 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="semantic/semantic.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./Semantic/semantic.css">
     <script
             src="https://code.jquery.com/jquery-3.1.1.min.js"
             integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
             crossorigin="anonymous"></script>
-             <script src="semantic/semantic.js"></script>
-    <meta charset="UTF-8">
+             <script src="./Semantic/semantic.js"></script>
+    <script src="./Semantic/themes/default/assets/library/jquery.min.js"></script>
+    <script src="./Semantic/components/visibility.js"></script>
+    <script src="./Semantic/components/sidebar.js"></script>
+    <script src="./Semantic/components/transition.js"></script>
+    <script src="./js/Main.js"></script>
+
     <link rel="stylesheet" href="css/Main.css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/reset.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/site.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/container.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/grid.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/header.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/image.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/menu.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/divider.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/dropdown.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/segment.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/button.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/list.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/icon.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/sidebar.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/transition.css">
     <title>CodingStudy</title>
 </head>
 <body>
 
-<section class="main-section" >
-    <div class="Main-Logo">CodingStudy</div>
-    <div class="Main-menu">
-    <ul class="Main-login">
-        <li>About</li>
-        <li>로그인</li>
-        <li>회원가입</li>
-        <li class="ui icon input">
-            <input type="text" placeholder="Search...">
-            <i class="inverted circular search link icon"></i>
-        </li>
-    </ul>
-    </div>
-    <div class="main-image-section">
-
-        <img class="main-img" src="./img/coding.jpg">
-    </div>
-</section>
-
-<section>
-        <div class="section-title">베스트 리더</div>
-            <div class="section-body">
-                <div class="best-leader-card">
-                <div class="ui card">
-                    <div class="image">
-                        <img src="img/javaSC.JPG">
-                    </div>
-                    <div class="content">
-                        <div class="header">JavaScript의 신!</div>
-                        <div class="description">
-                         자바스크립트의 신! <BR>김흥부와 함께하는 초보자 입문수업
-                        </div>
-                    </div>
-                    <div class="ui two bottom attached buttons">
-                        <div class="ui button">
-                            즐겨찾기 추가
-                        </div>
-                        <div class="ui primary button">
-                            자세히 보기
-                        </div>
-                    </div>
-                </div>
-                <div class="ui popup">
-                    <div class="header">User Rating</div>
-                    <div class="ui star rating" data-rating="3"></div>
-                </div>
-                </div>
-                <div class="best-leader-card">
-                    <div class="ui card">
-                        <div class="image">
-                            <img src="img/javaSC.JPG">
-                        </div>
-                        <div class="content">
-                            <div class="header">JavaScript의 신!</div>
-                            <div class="description">
-                                자바스크립트의 신! <br>김흥부와 함께하는 초보자 입문수업
-                            </div>
-                        </div>
-                        <div class="ui two bottom attached buttons">
-                            <div class="ui button">
-                                즐겨찾기 추가
-                            </div>
-                            <div class="ui primary button">
-                                자세히 보기
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ui popup">
-                        <div class="header">User Rating</div>
-                        <div class="ui star rating" data-rating="3"></div>
-                    </div>
-                </div>
-                <div class="best-leader-card">
-                    <div class="ui card">
-                        <div class="image">
-                            <img src="img/javaSC.JPG">
-                        </div>
-                        <div class="content">
-                            <div class="header">JavaScript의 신!</div>
-                            <div class="description">
-                                자바스크립트의 신! <br>김흥부와 함께하는 초보자 입문수업
-                            </div>
-                        </div>
-                        <div class="ui two bottom attached buttons">
-                            <div class="ui button">
-                                즐겨찾기 추가
-                            </div>
-                            <div class="ui primary button">
-                                자세히 보기
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ui popup">
-                        <div class="header">User Rating</div>
-                        <div class="ui star rating" data-rating="3"></div>
-                    </div>
-                </div>
-
+<div class="ui large top fixed hidden menu">
+    <div class="ui container">
+        <a class="item">Home</a>
+        <a class="item">Work</a>
+        <a class="item">Reader</a>
+        <a class="item">Study</a>
+        <div class="right menu">
+            <div class="item ui-button">
+                <a class="ui button">Log in</a>
             </div>
-
-</section>
-<section>
-    <div class="section-title">현재 진행중인 Study</div>
-    </div>
-
-    <div class="section-body">
-          <div class="ing-study-section">
-              <div class="ui three stackable cards">
-                  <div class="card">
-                      <div class="image">
-                          <img src="img/java.png">
-                      </div>
-                  </div>
-                  <div class="card">
-                      <div class="image">
-                          <img src="img/bananacoding_thumb.jpg">
-                      </div>
-                  </div>
-                  <div class="card">
-                      <div class="image">
-                          <img src="img/coding.jpg">
-                      </div>
-                  </div>
-                  <div class="card">
-                      <div class="image">
-                          <img src="img/node%20(1).png">
-                      </div>
-                  </div>
-                  <div class="card">
-                      <div class="image">
-                          <img src="img/javaSC.JPG">
-                      </div>
-                  </div>
-                  <div class="card">
-                      <div class="image">
-                          <img src="img/java.png">
-                      </div>
-                  </div>
-              </div>
-    </div>
-    </div>
-</section>
-<section>
-    <div class="study-review-body">
-    <div class="section-title">Study 후기</div>
-    <div class="section-body">
-        <div class="study-review-body">
-            <div class="study-review">
-            <img class="ui avatar image" src="img/Avatar.png">
-            <span>Username</span>
-            </div>
-    </div>
-        <div class="study-review-body">
-            <div class="study-review">
-                <img class="ui avatar image" src="img/Avatar.png">
-                <span>Username</span>
-            </div>
-        </div>
-        <div class="study-review-body">
-            <div class="study-review">
-                <img class="ui avatar image" src="img/Avatar.png">
-                <span>Username</span>
+            <div class="item ui-button">
+                <a class="ui primary button">Sign Up</a>
             </div>
         </div>
     </div>
+</div>
+
+<div class="ui vertical inverted sidebar menu">
+    <a class="item">Home</a>
+    <a class="item">Work</a>
+    <a class="item">Reader</a>
+    <a class="item">Study</a>
+    <a class="item">Login</a>
+    <a class="item">Signup</a>
+</div>
+
+
+<!-- 페이지 상단 메뉴부분 -->
+<div class="pusher">
+    <div class="ui inverted vertical masthead center aligned segment">
+
+        <div class="ui container">
+            <div class="ui large secondary inverted pointing menu">
+
+                <a class="item">Home</a>
+                <a class="item">Work</a>
+                <a class="item">Reader</a>
+                <a class="item">Study</a>
+                <div class="right item button-ui">
+                    <a class="ui inverted button" id="button-ui">Log in</a>
+                    <a class="ui inverted button">Sign Up</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 페이지 상단 메인부분 -->
+        <div class="ui text container">
+            <h1 class="ui inverted header">
+                코딩의 시작
+            </h1>
+            <h2>Coding Study</h2>
+            <div class="ui huge primary button">진행중인 스터디 바로가기 <i class="right arrow icon"></i></div>
+        </div>
 
     </div>
+    <!-- 베스트리더 섹션 -->
+    <section>
+    <div class="best-reader-title">Best Reader </div>
+    <div class="section-body">
+    <div class="ui vertical stripe segment">
+        <div class="ui middle aligned stackable grid container">
+            <div class="row">
+                <div class="eight wide column best-reader-header">
+                    <h3 class="ui header best-reader-header">잡스님의 수업을 듣고 많이 발전했어요!<br> -김흥부님</h3>
+                    <p>자바스크립트를 공부하면서 많이 힘들었는데 잡스님의 수업을듣고 많은 발전을했습니다.</p>
+                    <h3 class="ui header best-reader-header">잡스님 수업을 꼭 들어보세요 <br> - 김놀부</h3>
+                    <p>정말 유익하고 재미있었어요. 코딩실력이 정말 많이 늘었습니다.</p>
+                </div>
+                <div class="six wide right floated column">
+                    <img src="img/jobs.jpg" class="ui large bordered rounded image">
+                </div>
+            </div>
+            <div class="row">
+                <div class="center aligned column">
+                    <a class="ui huge button">진행중인 수업 알아보기</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </section>
+
+<section>
 
 
+    <div class="section-body ing-study-body">
+        <div class="ing-study-title">현재 진행중인 스터디</div>
+        <div class="ing-study">
+        <div class="ui raised link card ing-study ing-study">
+            <div class="content ">
+                <div class="header">Node.js</div>
+                <div class="meta">
+                    <span class="category">Tony의 초급반</span>
+                </div>
+                <div class="description">
+                    <img src="img/node%20(1).png">
+                </div>
+            </div>
+            <div class="extra content">
+                <div class="right floated author">
+                    입문부터 고급까지
+                    <img class="ui avatar image" src="./img/tony.jpg"> Tony </div>
+            </div>
+        </div>
+        </div>
 
+        <div class="ing-study">
+            <div class="ui raised link card ing-study ing-study">
+                <div class="content ">
+                    <div class="header">Node.js</div>
+                    <div class="meta">
+                        <span class="category">Tony의 초급반</span>
+                    </div>
+                    <div class="description">
+                        <img src="img/node%20(1).png">
+                    </div>
+                </div>
+                <div class="extra content">
+                    <div class="right floated author">
+                        입문부터 고급까지
+                        <img class="ui avatar image" src="./img/tony.jpg"> Tony </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ing-study">
+            <div class="ui raised link card ing-study ing-study">
+                <div class="content ">
+                    <div class="header">Node.js</div>
+                    <div class="meta">
+                        <span class="category">Tony의 초급반</span>
+                    </div>
+                    <div class="description">
+                        <img src="img/node%20(1).png">
+                    </div>
+                </div>
+                <div class="extra content">
+                    <div class="right floated author">
+                        입문부터 고급까지
+                        <img class="ui avatar image" src="./img/tony.jpg"> Tony </div>
+                </div>
+            </div>
+        </div>
+        <div class="ing-study">
+            <div class="ui raised link card ing-study ing-study">
+                <div class="content ">
+                    <div class="header">Node.js</div>
+                    <div class="meta">
+                        <span class="category">Tony의 초급반</span>
+                    </div>
+                    <div class="description">
+                        <img src="img/node%20(1).png">
+                    </div>
+                </div>
+                <div class="extra content">
+                    <div class="right floated author">
+                        입문부터 고급까지
+                        <img class="ui avatar image" src="./img/tony.jpg"> Tony </div>
+                </div>
+            </div>
+        </div>
+        <div class="ing-study">
+            <div class="ui raised link card ing-study ing-study">
+                <div class="content ">
+                    <div class="header">Node.js</div>
+                    <div class="meta">
+                        <span class="category">Tony의 초급반</span>
+                    </div>
+                    <div class="description">
+                        <img src="img/node%20(1).png">
+                    </div>
+                </div>
+                <div class="extra content">
+                    <div class="right floated author">
+                        입문부터 고급까지
+                        <img class="ui avatar image" src="./img/tony.jpg"> Tony </div>
+                </div>
+            </div>
+        </div>
+        <div class="ing-study">
+            <div class="ui raised link card ing-study ing-study">
+                <div class="content ">
+                    <div class="header">Node.js</div>
+                    <div class="meta">
+                        <span class="category">Tony의 초급반</span>
+                    </div>
+                    <div class="description">
+                        <img src="img/node%20(1).png">
+                    </div>
+                </div>
+                <div class="extra content">
+                    <div class="right floated author">
+                        입문부터 고급까지
+                        <img class="ui avatar image" src="./img/tony.jpg"> Tony </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
+<section>
+    <div class="reader-wanted">
+    <div class="ui vertical stripe segment ">
+        <div class="ui text container reader-wanted">
+            <div class="header-section">코딩스터디의 리더가 되어주세요</div>
+            <div class="reader-wanted-focus">Instead of focusing on content creation and hard work, we have learned how to master the art of doing nothing by providing massive amounts of whitespace and generic content that can seem massive, monolithic and worth your attention.</div>
+            <img class="reader-wanted-img" src="img/code-2558220_1920.jpg">
+            <a class="ui large button">리더 신청하기</a>
+        </div>
+    </div>
+    </div>
 
+</section>
+</div>
 </body>
+
+    <div class="ui inverted vertical footer segment">
+        <div class="ui container">
+            <div class="ui stackable inverted divided equal height stackable grid">
+                <div class="three wide column">
+                    <h4 class="ui inverted header">About</h4>
+                    <div class="ui inverted link list">
+                        <a href="#" class="item">이용 방법</a>
+                        <a href="#" class="item">Contact Us</a>
+                        <a href="#" class="item">환불 약관</a>
+                        <a href="#" class="item">개인정보 취급 방침</a>
+                    </div>
+                </div>
+                <div class="three wide column">
+                    <h4 class="ui inverted header">Services</h4>
+                    <div class="ui inverted link list">
+                        <a href="#" class="item">상담 받기</a>
+                        <a href="#" class="item">FAQ</a>
+                        <a href="#" class="item">리더신청</a>
+                        <a href="#" class="item">대표번호</a>
+
+                    </div>
+                </div>
+                <div class="seven wide column">
+                    <h4 class="ui inverted header">CUSTOMER CENTER</h4>
+                    <p>코딩스터디 고객센터</p><br>
+                    <p>평일 10:00 - 22:00</p>
+                    <p>주말 10:00 - 19:00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
 
 </html>
