@@ -82,8 +82,7 @@ span {
 
 .header-section {
     font-size: 2em;
-    font-weight: bold;
-    color: rgba(0, 0, 0, 0.87);;
+    color: #717579;
 
 }
 
@@ -99,14 +98,14 @@ span {
 
 }
 
-.best-reader-header {
+.best-leader-header {
     font-size: 10px;
     line-height: 15px;
 
 }
 
 
-.best-reader-title {
+.best-leader-title {
     margin-top: 100px;
     text-align: center;
     font-size: 50px;
@@ -153,7 +152,7 @@ span {
 }
 
 
-.reader-wanted-focus {
+.leader-wanted-focus {
 
     font-size: 15px;
     margin-bottom: 30px;
@@ -166,11 +165,11 @@ span {
 }
 
 
-.reader-wanted {
+.leader-wanted {
     text-align: center;
 }
 
-.reader-wanted-img {
+.leader-wanted-img {
     text-align: center;
     height: 400px;
     width: 700px;
@@ -179,18 +178,52 @@ span {
 }
 
 
+.study-leader {
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.statistic-section {
+    float: right;
+
+}
+
+.statistic-title {
+    float: left;
+    font-size: 25px;
+    line-height: 80px;
+    margin-top: 50px;
+
+}
+
+.point {
+    font-weight: bold;
+
+}
+
+.statistic-body {
+
+    margin-top: 100px;
+}
+
+.movie {
+
+    margin-top: 50px;
+}
+
+#photo {
+    
+  background-image: url("../img/coding2.jpg");
+}
 
 
 
 
-
-
-
-
-
-
-
-
+.size-control {
+    height: 40px;
+    width: 30px;
+}
 
 .ui.cards > .card, .ui.card {
     text-align: center;
@@ -212,8 +245,21 @@ span {
 .ui .button {
 
     margin-top: 100px;
-    width: 400px;
+
 }
+
+.button-section {
+
+    margin-top: 30px;
+}
+
+
+.top-sns-botton {
+
+    text-align: center;
+    margin-top: 10px;
+}
+
 
 .content {
     font-size: 13px;

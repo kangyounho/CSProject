@@ -37,9 +37,10 @@
 
 <div class="ui large top fixed hidden menu">
     <div class="ui container">
+
         <a class="item">Home</a>
-        <a class="item">Work</a>
-        <a class="item">Reader</a>
+        <a class="item">review</a>
+        <a class="item">Leader</a>
         <a class="item">Study</a>
         <div class="right menu">
             <div class="item ui-button">
@@ -47,35 +48,81 @@
             </div>
             <div class="item ui-button">
                 <a class="ui primary button">Sign Up</a>
+
+            </div>
+            <div class="top-sns-botton">
+                <button class="ui circular facebook icon button ">
+                    <i class="facebook icon"></i>
+                </button>
+                <button class="ui circular twitter icon button">
+                    <i class="twitter icon"></i>
+                </button>
+                <button class="ui circular linkedin icon button">
+                    <i class="linkedin icon"></i>
+                </button>
+                <button class="ui circular google plus icon button">
+                    <i class="google plus icon"></i>
+                </button>
             </div>
         </div>
     </div>
+
 </div>
+
 
 <div class="ui vertical inverted sidebar menu">
     <a class="item">Home</a>
-    <a class="item">Work</a>
-    <a class="item">Reader</a>
+    <a class="item">review</a>
+    <a class="item">Leader</a>
     <a class="item">Study</a>
     <a class="item">Login</a>
     <a class="item">Signup</a>
+    <div class="top-sns-botton">
+        <button class="ui circular facebook icon button ">
+            <i class="facebook icon"></i>
+        </button>
+        <button class="ui circular twitter icon button">
+            <i class="twitter icon"></i>
+        </button>
+        <button class="ui circular linkedin icon button">
+            <i class="linkedin icon"></i>
+        </button>
+        <button class="ui circular google plus icon button">
+            <i class="google plus icon"></i>
+        </button>
+    </div>
 </div>
 
 
 <!-- 페이지 상단 메뉴부분 -->
 <div class="pusher">
-    <div class="ui inverted vertical masthead center aligned segment">
+    <div class="ui inverted vertical masthead center aligned segment" id="photo">
 
         <div class="ui container">
             <div class="ui large secondary inverted pointing menu">
 
                 <a class="item">Home</a>
-                <a class="item">Work</a>
-                <a class="item">Reader</a>
+                <a class="item">review</a>
+                <a class="item">Leader</a>
                 <a class="item">Study</a>
                 <div class="right item button-ui">
                     <a class="ui inverted button" id="button-ui">Log in</a>
                     <a class="ui inverted button">Sign Up</a>
+
+                </div>
+                <div class="top-sns-botton">
+                    <button class="ui circular facebook icon button ">
+                        <i class="facebook icon"></i>
+                    </button>
+                    <button class="ui circular twitter icon button">
+                        <i class="twitter icon"></i>
+                    </button>
+                    <button class="ui circular linkedin icon button">
+                        <i class="linkedin icon"></i>
+                    </button>
+                    <button class="ui circular google plus icon button">
+                        <i class="google plus icon"></i>
+                    </button>
                 </div>
             </div>
         </div>
@@ -83,24 +130,24 @@
         <!-- 페이지 상단 메인부분 -->
         <div class="ui text container">
             <h1 class="ui inverted header">
-                코딩의 시작
+                코딩을 시작하세요!
             </h1>
             <h2>Coding Study</h2>
-            <div class="ui huge primary button">진행중인 스터디 바로가기 <i class="right arrow icon"></i></div>
+            <div class="ui huge primary button ing-button">진행중인 스터디 바로가기 <i class="right arrow icon"></i></div>
         </div>
 
     </div>
     <!-- 베스트리더 섹션 -->
     <section>
-    <div class="best-reader-title">Best Reader </div>
+    <div class="best-leader-title">Best Leader </div>
     <div class="section-body">
     <div class="ui vertical stripe segment">
         <div class="ui middle aligned stackable grid container">
             <div class="row">
-                <div class="eight wide column best-reader-header">
-                    <h3 class="ui header best-reader-header">잡스님의 수업을 듣고 많이 발전했어요!<br> -김흥부님</h3>
+                <div class="eight wide column best-leader-header">
+                    <h3 class="ui header best-leader-header">잡스님의 수업을 듣고 많이 발전했어요!<br> -김흥부님</h3>
                     <p>자바스크립트를 공부하면서 많이 힘들었는데 잡스님의 수업을듣고 많은 발전을했습니다.</p>
-                    <h3 class="ui header best-reader-header">잡스님 수업을 꼭 들어보세요 <br> - 김놀부</h3>
+                    <h3 class="ui header best-leader-header">잡스님 수업을 꼭 들어보세요 <br> - 김놀부</h3>
                     <p>정말 유익하고 재미있었어요. 코딩실력이 정말 많이 늘었습니다.</p>
                 </div>
                 <div class="six wide right floated column">
@@ -122,14 +169,15 @@
 
     <div class="section-body ing-study-body">
         <div class="ing-study-title">현재 진행중인 스터디</div>
-        <div class="ing-study">
-        <div class="ui raised link card ing-study ing-study">
-            <div class="content ">
+        <div class="ing-study" data-tooltip="입문자용 추천" data-position="top left" data-inverted="">
+            <div class="ui raised link card ing-study ing-study" >
+            <div class="content">
                 <div class="header">Node.js</div>
                 <div class="meta">
                     <span class="category">Tony의 초급반</span>
                 </div>
                 <div class="description">
+
                     <img src="img/node%20(1).png">
                 </div>
             </div>
@@ -141,11 +189,16 @@
         </div>
         </div>
 
-        <div class="ing-study">
+        <div class="ing-study" data-tooltip="입문자용 추천" data-position="top left" data-inverted="">
+
             <div class="ui raised link card ing-study ing-study">
+
                 <div class="content ">
-                    <div class="header">Node.js</div>
+
+                    <div class="header">Node.js </div>
+
                     <div class="meta">
+
                         <span class="category">Tony의 초급반</span>
                     </div>
                     <div class="description">
@@ -153,14 +206,56 @@
                     </div>
                 </div>
                 <div class="extra content">
+
                     <div class="right floated author">
+
                         입문부터 고급까지
                         <img class="ui avatar image" src="./img/tony.jpg"> Tony </div>
                 </div>
             </div>
         </div>
 
-        <div class="ing-study">
+        <div class="ing-study" data-tooltip="입문자용 추천" data-position="top left" data-inverted="">
+            <div class="ui raised link card ing-study ing-study">
+                <div class="content ">
+                    <div class="header">Node.js</div>
+                    <div class="meta">
+
+
+                        <span class="category">Tony의 초급반</span>
+                    </div>
+                    <div class="description">
+                        <img src="img/node%20(1).png">
+                    </div>
+                </div>
+                <div class="extra content">
+                    <div class="right floated author">
+                        입문부터 고급까지
+                        <img class="ui avatar image" src="./img/tony.jpg"> Tony </div>
+                </div>
+            </div>
+        </div>
+        <div class="ing-study" data-tooltip="입문자용 추천" data-position="top left" data-inverted="">
+            <div class="ui raised link card ing-study ing-study">
+                <div class="content ">
+                    <div class="header">Node.js</div>
+                    <div class="meta">
+
+                       <span class="category">Tony의 초급반</span>
+                    </div>
+                    <div class="description">
+                        <img src="img/node%20(1).png">
+                    </div>
+                </div>
+                <div class="extra content">
+                    <div class="right floated author">
+
+                        입문부터 고급까지
+                        <img class="ui avatar image" src="./img/tony.jpg"> Tony </div>
+                </div>
+            </div>
+        </div>
+        <div class="ing-study" data-tooltip="입문자용 추천" data-position="top left" data-inverted="">
             <div class="ui raised link card ing-study ing-study">
                 <div class="content ">
                     <div class="header">Node.js</div>
@@ -178,43 +273,7 @@
                 </div>
             </div>
         </div>
-        <div class="ing-study">
-            <div class="ui raised link card ing-study ing-study">
-                <div class="content ">
-                    <div class="header">Node.js</div>
-                    <div class="meta">
-                        <span class="category">Tony의 초급반</span>
-                    </div>
-                    <div class="description">
-                        <img src="img/node%20(1).png">
-                    </div>
-                </div>
-                <div class="extra content">
-                    <div class="right floated author">
-                        입문부터 고급까지
-                        <img class="ui avatar image" src="./img/tony.jpg"> Tony </div>
-                </div>
-            </div>
-        </div>
-        <div class="ing-study">
-            <div class="ui raised link card ing-study ing-study">
-                <div class="content ">
-                    <div class="header">Node.js</div>
-                    <div class="meta">
-                        <span class="category">Tony의 초급반</span>
-                    </div>
-                    <div class="description">
-                        <img src="img/node%20(1).png">
-                    </div>
-                </div>
-                <div class="extra content">
-                    <div class="right floated author">
-                        입문부터 고급까지
-                        <img class="ui avatar image" src="./img/tony.jpg"> Tony </div>
-                </div>
-            </div>
-        </div>
-        <div class="ing-study">
+        <div class="ing-study" data-tooltip="입문자용 추천" data-position="top left" data-inverted="">
             <div class="ui raised link card ing-study ing-study">
                 <div class="content ">
                     <div class="header">Node.js</div>
@@ -233,25 +292,65 @@
             </div>
         </div>
     </div>
+
 </section>
 
+    <div class="section-body statistic-body">
+        <div class="statistic-title">
+            그동안 <span class="point"> 여러분</span>의 성원에 힘입어<br>
+            코딩스터디가 누적회원수 <span class="point"> 45,000명 </span>을 달성하였습니다.<br>
+            앞으로도 코딩교육을 위해 앞장서는 코딩스터디가 되겠습니다.<br>
+        </div>
+        <div class="ui horizontal statistics statistic-section">
+            <div class="statistic">
+                <div class="value">
+                    45,000
+                </div>
+                <div class="label">Visning </div>
+            </div>
+            <div class="statistic">
+                <div class="value">
+                    40,000
+                </div>
+                <div class="label">Sign </div>
+            </div>
+            <div class="statistic">
+                <div class="value">
+                    10,000
+                </div>
+                <div class="label">Stduy </div>
+            </div>
+            <div class="statistic">
+                <div class="value">
+                    300
+                </div>
+                <div class="label">Leader </div>
+            </div>
+        </div>
+        <iframe class="movie" width="950" height="500" src="https://www.youtube.com/embed/5g7JMXLlOrY" frameborder="0" gesture="media" allowfullscreen></iframe>
+       </div>
+
 <section>
-    <div class="reader-wanted">
+    <div class="leader-wanted">
     <div class="ui vertical stripe segment ">
-        <div class="ui text container reader-wanted">
-            <div class="header-section">코딩스터디의 리더가 되어주세요</div>
-            <div class="reader-wanted-focus">Instead of focusing on content creation and hard work, we have learned how to master the art of doing nothing by providing massive amounts of whitespace and generic content that can seem massive, monolithic and worth your attention.</div>
-            <img class="reader-wanted-img" src="img/code-2558220_1920.jpg">
+        <div class="ui text container leader-wanted">
+            <div class="header-section"><span class="study-leader">코딩스터디의 리더</span>가 되어주세요.
+            <div class="leader-wanted-focus">내가 편한시간 지역등을 골라 스터디를 진행할 수 있습니다. 리더가되어 코딩을 배우기 시작한 사람들을 성장시켜주세요. 코딩스터디에서 드리는 좋은 혜택을 통해 한단계 더 성장하실 수 있습니다.</div>
+            <img class="leader-wanted-img" src="img/code-2558220_1920.jpg">
             <a class="ui large button">리더 신청하기</a>
         </div>
     </div>
     </div>
-
+    </div>
 </section>
+
 </div>
+
 </body>
 
+
     <div class="ui inverted vertical footer segment">
+
         <div class="ui container">
             <div class="ui stackable inverted divided equal height stackable grid">
                 <div class="three wide column">
@@ -279,10 +378,24 @@
                     <p>평일 10:00 - 22:00</p>
                     <p>주말 10:00 - 19:00</p>
                 </div>
-            </div>
+                <div class="button-section">
+                <button class="ui circular facebook icon button ">
+                    <i class="facebook icon"></i>
+                </button>
+                <button class="ui circular twitter icon button">
+                    <i class="twitter icon"></i>
+                </button>
+                <button class="ui circular linkedin icon button">
+                    <i class="linkedin icon"></i>
+                </button>
+                <button class="ui circular google plus icon button">
+                    <i class="google plus icon"></i>
+                </button>
+                </div>
         </div>
-    </div>
-    </div>
 
 
-</html>
+    </div>
+
+    </div>
+
