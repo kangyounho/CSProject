@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./Semantic/semantic.css">
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script src="./Semantic/semantic.js"></script>
+    <script src="./Semantic/themes/default/assets/library/jquery.min.js"></script>
+    <script src="./Semantic/components/visibility.js"></script>
+    <script src="./Semantic/components/sidebar.js"></script>
+    <script src="./Semantic/components/transition.js"></script>
+    <script src="./js/Main.js"></script>
+    <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=s8FcRqKL2xmkynDTkTgi&submodules=geocoder"></script>
+
+
+    <link rel="stylesheet" href="css/Main.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/reset.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/site.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/container.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/grid.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/header.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/image.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/menu.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/divider.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/dropdown.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/segment.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/button.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/list.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/icon.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/sidebar.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/transition.css">
+    <title>CodingStudy</title>
+</head>
+<body>
+
+<div class="ui large top fixed hidden menu">
+    <div class="ui container">
+        <a class="item" href="index.html">Home</a>
+        <a class="item" href="review.html">Review</a>
+        <a class="item" href="best-reader.html">Leader</a>
+        <a class="item" href="ing-study.html">Study</a>
+        <div class="right menu">
+            <div class="item ui-button">
+                <a class="ui button" href="loginForm.html">Log in</a>
+            </div>
+            <div class="item ui-button">
+                <a class="ui primary button" href="Signup.html">Sign Up</a>
+
+            </div>
+            <div class="top-sns-button">
+                <button class="ui circular facebook icon button ">
+                    <i class="facebook icon"></i>
+                </button>
+                <button class="ui circular twitter icon button">
+                    <i class="twitter icon"></i>
+                </button>
+                <button class="ui circular linkedin icon button">
+                    <i class="linkedin icon"></i>
+                </button>
+                <button class="ui circular google plus icon button">
+                    <i class="google plus icon"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="ui vertical inverted sidebar menu">
+    <a class="item" href="index.html">Home</a>
+    <a class="item" href="review.html">Review</a>
+    <a class="item" href="reader-wanted.html">Leader</a>
+    <a class="item" href="ing-study.html">Study</a>
+    <a class="item" href="loginForm.html">Login</a>
+    <a class="item" href="Signup.html">Signup</a>
+    <div class="top-sns-button">
+        <button class="ui circular facebook icon button ">
+            <i class="facebook icon"></i>
+        </button>
+        <button class="ui circular twitter icon button">
+            <i class="twitter icon"></i>
+        </button>
+        <button class="ui circular linkedin icon button">
+            <i class="linkedin icon"></i>
+        </button>
+        <button class="ui circular google plus icon button">
+            <i class="google plus icon"></i>
+        </button>
+    </div>
+</div>
+
+
+<!-- 페이지 상단 메뉴부분 -->
+<div class="pusher">
+    <div class="ui inverted vertical masthead center aligned segment" id="photo">
+
+        <div class="ui container">
+            <div class="ui large secondary inverted pointing menu">
+
+                <a class="item">Home</a>
+                <a class="item">review</a>
+                <a class="item">Leader</a>
+                <a class="item">Study</a>
+                <div class="right item button-ui">
+                    <a class="ui inverted button" id="button-ui" href="loginForm.html">Log in</a>
+                    <a class="ui inverted button" href="Signup.html">Sign Up</a>
+
+                </div>
+                <div class="top-sns-button">
+                    <button class="ui circular facebook icon button ">
+                        <i class="facebook icon"></i>
+                    </button>
+                    <button class="ui circular twitter icon button">
+                        <i class="twitter icon"></i>
+                    </button>
+                    <button class="ui circular linkedin icon button">
+                        <i class="linkedin icon"></i>
+                    </button>
+                    <button class="ui circular google plus icon button">
+                        <i class="google plus icon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 페이지 상단 메인부분 -->
+        <div class="ui text container">
+            <h1 class="ui inverted header">
+                코딩을 시작하세요!
+            </h1>
+            <h2>Coding Study</h2>
+            <div class="ui huge primary button ing-button">진행중인 스터디 바로가기 <i class="right arrow icon"></i></div>
+        </div>
+
+    </div>
+</div>
+
+<div class="Service-terms-body" >
+
+    <div class="Service-terms">
+        <div class="terms-title">개인정보 취급방침</div>
+        개인정보처리방침<br>
+        <br>
+        본 버전은 자료실에 보관된 코딩스터디 개인정보취급방침 버전입니다.<br>
+        <br>
+
+        사용자는 정보를 검색 및 공유하고, 다른 사람들과 소통하고, 새로운 콘텐츠를 만드는 등 다양한 방법으로 코딩스터디 서비스를 사용할 수 있습니다. 사용자가 코딩스터디과 정보를 공유하는 경우(예를 들어 코딩스터디 계정을 만드는 경우) 코딩스터디은 해당 서비스를 더욱 개선하여 좀 더 관련성 높은 검색결과를 표시하고, 사람들과 간편하게 연결하고, 다른 사용자와 더 빠르고 쉽게 공유할 수 있도록 도와드립니다. 코딩스터디은 코딩스터디 서비스 사용자가 서비스를 사용할 때 코딩스터디의 정보 사용 방식 및 개인정보 보호 방식을 명확히 이해하기를 바랍니다.<br>
+        <br>
+        코딩스터디 개인정보처리방침에서 다루는 내용은 다음과 같습니다.<br>
+        <br>
+        코딩스터디에서 수집하는 정보 및 수집 이유<br>
+        코딩스터디에서 정보를 사용하는 방식<br>
+        코딩스터디에서 제공하는 선택 사항(정보에 대한 액세스 및 업데이트 방법 포함)<br>
+        가급적 이해하기 쉽게 설명하고자 하지만 쿠키, IP 주소, 픽셀 태그 및 브라우저와 같은 용어에 익숙하지 않다면 먼저 이러한 핵심 용어에 대해 읽어보시기 바랍니다. 코딩스터디은 사용자의 개인정보를 중요하게 여깁니다. 따라서 코딩스터디을 처음 사용하는 사용자든 오랫동안 사용한 사용자든, 시간을 내어 코딩스터디의 관행을 살펴보고 질문이 있는 경우 코딩스터디에 문의하시기 바랍니다.<br>
+        <br>
+
+        코딩스터디에서 수집하는 정보<br>
+        <br>
+        코딩스터디은 모든 사용자에게 더 나은 서비스를 제공하기 위해 사용자의 언어와 같은 기본적인 정보부터 사용자가 가장 유용하다고 생각할 광고, 온라인에서 가장 중요하게 여기는 사람이나 좋아할 것 같은 YouTube 동영상 등과 같은 고급 정보에 이르기까지 다양한 정보를 수집합니다.<br>
+        <br>
+        코딩스터디에서는 다음과 같은 방법으로 정보를 수집합니다.<br>
+        <br>
+        사용자가 제공하는 정보. 예를 들어 코딩스터디 서비스 중에는 코딩스터디 계정에 가입해야 사용할 수 있는 서비스가 많습니다. 코딩스터디 계정에 가입할 때 코딩스터디은 사용자의 계정과 함께 보관하기 위하여 사용자에게 이름, 이메일 주소, 전화번호 또는 신용카드와 같은 개인정보를 요청합니다. 또한 코딩스터디에서 제공하는 공유 기능을 최대한 활용하고자 하는 사용자에게 코딩스터디 프로필을 만들도록 요청할 수 있으며, 이 프로필은 모든 이에게 공개되고 이름과 사진이 포함될 수 있습니다.<br>
+        <br>
+        사용자가 서비스를 사용할 때 수집하는 정보. 코딩스터디은 사용자가 YouTube로 동영상을 본 시간, 코딩스터디 광고 서비스를 사용하는 웹사이트 방문 시점, 또는 코딩스터디 광고 및 콘텐츠를 보고 사용한 시점 등 사용하는 서비스 및 사용 방식에 대한 정보를 수집할 수 있습니다. 이러한 정보에는 다음이 포함됩니다.<br>
+        <br>
+        코딩스터디은 하드웨어 모델, 운영체제 버전, 고유 기기 식별자, 모바일 네트워크 정보(전화번호 포함)와 같은 기기별 정보를 수집합니다. 코딩스터디은 기기 식별자 또는 전화번호를 코딩스터디 계정에 연결할 수 있습니다.
+        <br>
+
+
+        코딩스터디 서비스를 사용하거나 코딩스터디에서 제공하는 콘텐츠를 볼 때 코딩스터디은 서버 로그에 특정 정보를 자동으로 수집하고 저장합니다. 여기에는 다음이 포함됩니다.<br>
+        <br>
+        사용자가 코딩스터디 서비스를 사용한 방법에 대한 세부정보(예: 검색어)<br>
+        전화 로그 정보(전화번호, 발신자 번호, 착신전환 번호, 통화 일시, 통화 시간, SMS 라우팅 정보 및 통화 유형)<br>
+        인터넷 프로토콜 주소<br>
+        기기 이벤트 정보(다운, 시스템 활동, 하드웨어 설정, 브라우저 유형, 브라우저 언어, 요청 날짜 및 시간, 참조 URL)<br>
+        사용자의 브라우저 또는 코딩스터디 계정을 고유하게 식별할 수 있는 쿠키<br>
+        위치 정보<br>
+        <br>
+        사용자가 코딩스터디 서비스를 사용할 때 코딩스터디에서 사용자의 실제 위치에 대한 정보를 수집하고 처리할 수 있습니다. 코딩스터디은 IP 주소, GPS뿐 아니라 주변 기기, Wi-Fi 액세스 포인트, 기지국 등에 관한 정보를 제공하는 기타 센서를 포함하여 다양한 기술을 사용하여 위치를 파악합니다.<br>
+        <br>
+        고유한 애플리케이션 번호<br>
+        <br>
+        일부 서비스에는 고유한 애플리케이션 번호가 포함됩니다. 서비스를 설치하거나 제거할 때 또는 자동 업데이트 요청 등을 위해 서비스가 주기적으로 코딩스터디 서버에 연결할 때 이 번호 및 운영체제 종류, 애플리케이션 버전 번호 등 설치 관련 정보가 코딩스터디로 전송될 수 있습니다.<br>
+        <br>
+        로컬 저장소<br>
+        <br>
+        코딩스터디은 브라우저 웹 저장소(HTML 5 포함) 및 애플리케이션 데이터 캐시 등의 메커니즘을 사용하여 정보(개인정보 포함)를 수집하고 이를 사용자의 기기에 로컬로 저장할 수 있습니다.<br>
+        <br>
+        쿠키 및 유사한 기술<br>
+        <br>
+        사용자가 코딩스터디 서비스를 방문할 때 코딩스터디과 코딩스터디 파트너는 다양한 기술을 사용하여 정보를 수집하고 저장하며, 이는 쿠키 또는 유사한 기술을 사용하여 사용자의 브라우저 또는 기기를 식별하는 것을 포함할 수 있습니다. 또한 코딩스터디이 파트너에게 제공하는 서비스(예: 다른 사이트에 표시되는 코딩스터디 기능이나 광고 서비스)와 사용자 간 상호 작용이 있을 때 이러한 기술을 사용하여 정보를 수집하고 저장합니다. 비즈니스 및 사이트 소유자는 코딩스터디 애널리틱스 제품을 사용하여 웹사이트 및 앱의 트래픽을 분석할 수 있습니다. DoubleClick 쿠키 등을 사용하는 코딩스터디의 광고 서비스와 함께 사용할 경우 코딩스터디 애널리틱스 정보가 코딩스터디 기술을 사용하는 코딩스터디 애널리틱스 고객 또는 코딩스터디에 의해 여러 사이트의 방문 기록에 대한 정보와 연결됩니다.<br>
+        <br>
+        사용자가 코딩스터디에 로그인되어 있을 때 수집되는 정보와 파트너로부터 사용자에 대해 얻은 정보는 사용자의 코딩스터디 계정과 연결될 수도 있습니다. 사용자의 코딩스터디 계정과 연결된 정보는 개인정보로 간주됩니다. 코딩스터디 계정과 연결된 정보에 대한 액세스, 관리, 삭제 방법에 대한 자세한 내용은 이 정책의 투명성 및 사용자의 선택 섹션을 참조하세요.<br>
+        <br>
+        맨위로<br>
+        코딩스터디에서 수집한 정보를 이용하는 방법<br>
+        <br>
+        코딩스터디은 모든 코딩스터디 서비스로부터 수집한 정보를 서비스의 제공, 유지 관리, 보호, 개선과 새로운 서비스 개발, 코딩스터디 및 코딩스터디 사용자를 보호하기 위한 목적으로 사용합니다. 또한 사용자에게 좀 더 관련성 높은 검색결과 및 광고를 표시하는 등 맞춤형 콘텐츠를 제공하기 위해 이러한 정보를 사용합니다.<br>
+        <br>
+        코딩스터디은 사용자가 코딩스터디 프로필로 제공하는 이름을 코딩스터디 계정이 필요한 모든 코딩스터디 서비스에서 사용할 수 있습니다. 또한 사용자의 이름이 모든 코딩스터디 서비스에 일관되게 표시되도록 코딩스터디 계정과 연결된 과거 이름을 교체할 수 있습니다. 내 이메일 주소나 나를 식별하는 정보를 다른 사용자가 가지고 있는 경우 코딩스터디은 그 사용자에게 내 공개 코딩스터디 프로필 정보(예: 이름 및 사진)를 표시할 수 있습니다.<br>
+        <br>
+        코딩스터디 계정을 사용하는 경우 코딩스터디은 사용자의 프로필 이름, 프로필 사진 및 코딩스터디 또는 코딩스터디 계정에 연결된 타사 애플리케이션에서 수행하는 작업(예: +1, 리뷰, 댓글 등)을 코딩스터디 서비스에 표시할 수 있습니다(광고 및 기타 상업적 용도로 표시하는 경우 포함). 코딩스터디은 사용자가 코딩스터디 계정에서 공유 또는 공개 설정을 제한하는 경우 이를 존중합니다.<br>
+        <br>
+        사용자가 코딩스터디에 문의하는 경우 코딩스터디은 사용자가 겪고 있는 문제 해결에 도움이 되도록 사용자와의 커뮤니케이션 기록을 보관합니다. 코딩스터디은 변경 예정 사항 또는 개선사항 등 코딩스터디 서비스 관련 정보를 제공하기 위해 사용자의 이메일 주소를 사용할 수 있습니다.<br>
+        <br>
+        코딩스터디은 쿠키 및 그 외의 기술(예: 픽셀 태그)을 통해 수집한 정보를 사용자 환경 및 전반적인 코딩스터디 서비스 품질을 개선하는 데 사용합니다. 이를 위해 코딩스터디 서비스에서 사용되는 코딩스터디 제품의 예로 코딩스터디 애널리틱스가 있습니다. 예를 들어 사용자의 언어 환경설정을 저장함으로써 코딩스터디은 사용자가 선호하는 언어로 서비스를 표시할 수 있게 됩니다. 사용자에게 맞춤 광고를 표시할 때 코딩스터디은 쿠키 또는 유사한 기술의 식별자를 인종, 종교, 성적 취향, 건강 등과 관련된 민감한 카테고리와 연결하지 않습니다.<br>
+        <br>
+        코딩스터디의 자동화된 시스템에서는 맞춤 검색결과, 맞춤 광고, 스팸 및 멀웨어 감지 등 개별 사용자에게 유용한 제품 기능을 제공할 목적으로 사용자의 콘텐츠(이메일 포함)를 분석합니다.<br>
+        <br>
+        코딩스터디은 예를 들어 사용자가 아는 사람들과 쉽게 콘텐츠를 공유할 수 있도록 돕기 위한 목적 등으로 하나의 서비스에 제공한 개인정보를 다른 코딩스터디 서비스의 정보(개인정보 포함)와 조합할 수 있습니다. 귀하의 계정 설정에 따라 귀하의 다른 사이트 및 앱에서의 활동내역이 코딩스터디 서비스와 코딩스터디이 제공하는 광고를 개선하기 위한 목적으로 귀하의 개인정보와 연결될 수 있습니다.<br>
+        <br>
+        본 개인정보처리방침에 명시된 목적과 다른 용도로 정보를 이용할 경우 코딩스터디은 먼저 사용자의 동의를 요청합니다.<br>
+        <br>
+        코딩스터디은 개인정보를 전 세계의 여러 국가에 있는 코딩스터디 서버에서 처리합니다. 코딩스터디은 사용자가 거주하는 국가 이외의 지역에 있는 서버에서 사용자의 개인정보를 처리할 수 있습니다.<br>
+        <br>
+
+        투명성 및 사용자의 선택<br>
+        <br>
+        사람마다 개인정보 보호와 관련된 관심사가 다릅니다. 코딩스터디의 목표는 어떤 정보를 수집하는지 명백히 밝힘으로써 사용자가 정보 사용 방식에 대해 의미 있는 선택을 할 수 있도록 하는 것입니다. 예를 들어 사용자는<br>
+        <br>
+        사용자의 코딩스터디 활동 제어를 검토 및 업데이트하여 코딩스터디 서비스 사용 시 계정에 저장할 데이터 유형(예: YouTube에서 시청한 동영상, 이전 검색어)을 선택할 수 있습니다. 또한 이 제어를 방문하여 계정에서 로그아웃한 상태에서 코딩스터디 서비스를 사용할 때 특정 활동이 쿠키 또는 기기의 유사한 기술에 저장되는지 관리할 수 있습니다.<br>
+        코딩스터디 대시보드를 사용하여 코딩스터디 계정과 연결된 특정 유형의 정보를 검토하고 관리할 수 있습니다.<br>
+        광고 설정을 사용하여 관심이 있는 카테고리 등 코딩스터디 및 웹에서 표시되는 코딩스터디 광고 환경설정을 보고 수정할 수 있습니다. 또한 해당 페이지를 방문하여 특정 코딩스터디 광고 서비스를 사용하지 않도록 선택할 수 있습니다.<br>
+        코딩스터디 계정과 연결된 프로필이 다른 사용자에게 표시되는 방식을 조정할 수 있습니다.<br>
+        코딩스터디 계정을 통해 정보를 공유할 사용자를 지정할 수 있습니다.<br>
+        여러 코딩스터디 서비스에서 코딩스터디 계정과 연결된 정보를 가져올 수 있습니다.<br>
+        광고에 표시되는 공유 인증에 프로필 이름과 프로필 사진이 표시되도록 할 것인지 선택하세요.<br>
+        코딩스터디 서비스와 관련된 쿠키를 포함하여 모든 쿠키를 차단하거나 코딩스터디에서 쿠키를 설정할 때 이를 알리도록 브라우저를 설정할 수도 있습니다. 하지만 쿠키를 차단하면 코딩스터디 서비스 다수가 제대로 작동하지 않을 수 있습니다. 예를 들어 사용자의 언어 환경설정을 기억하지 못할 수 있습니다.<br>
+        <br>
+        맨위로<br>
+        사용자가 공유하는 정보<br>
+        <br>
+        사용자는 여러 코딩스터디 서비스에서 다른 사용자와 정보를 공유할 수 있습니다. 정보를 공개적으로 공유하는 경우 검색 엔진(코딩스터디 포함)에서 해당 정보의 색인을 생성할 수 있습니다. 코딩스터디 서비스는 콘텐츠를 공유 및 삭제할 수 있는 다양한 옵션을 제공합니다.<br>
+        <br>
+        맨위로<br>
+        개인정보 액세스 및 업데이트<br>
+        <br>
+        코딩스터디은 사용자가 코딩스터디 서비스를 사용하는 동안 언제든지 자신의 개인정보에 액세스할 수 있도록 하고자 합니다. 해당 정보가 잘못된 경우, 코딩스터디은 합법적인 사업 목적 또는 법률적 목적을 위해 유지해야 하는 경우가 아니라면 이러한 정보를 신속하게 업데이트하거나 삭제할 수 있는 방법을 제공하기 위해 노력합니다. 개인정보를 업데이트하는 경우 코딩스터디은 요청을 처리하기 전에 사용자 신원 확인을 요청할 수 있습니다.<br>
+        <br>
+        코딩스터디은 비합리적으로 반복적인 요청, 과도한 기술적 노력이 필요한 요청(예: 새로운 시스템을 개발하거나 기존 관행을 근본적으로 바꾸어야 하는 경우), 타인의 개인정보를 침해하는 요청 또는 매우 비현실적인 요청(예: 백업 테이프에 있는 정보 관련 요청)을 거부할 수 있습니다.<br>
+        <br>
+        코딩스터디은 과도한 노력이 요구되지 않는 한 정보 액세스 및 수정 서비스를 무료로 제공합니다. 코딩스터디은 우발적이거나 악의적인 삭제 행위로부터 정보를 보호하는 방식으로 서비스를 유지 관리하고자 합니다. 이에 따라 코딩스터디은 사용자가 코딩스터디 서비스에서 정보를 삭제한 후에도 사본을 코딩스터디 활성 서버에서 즉시 삭제하지 않을 수 있으며 백업 시스템에서 정보를 삭제하지 않을 수 있습니다.<br>
+        <br>
+        맨위로<br>
+        코딩스터디에서 공유하는 정보<br>
+        <br>
+        코딩스터디은 다음 경우를 제외하고는 코딩스터디 이외의 회사, 조직 및 개인과 개인정보를 공유하지 않습니다.<br>
+        <br>
+        사용자가 동의하는 경우<br>
+        <br>
+        코딩스터디은 사용자가 동의한 경우 코딩스터디 이외의 회사, 조직 및 개인과 개인정보를 공유합니다. 민감한 개인정보를 공유해야 하는 경우 코딩스터디은 사용자의 사전 동의를 요청합니다.<br>
+        <br>
+        도메인 관리자와 공유하는 경우<br>
+        <br>
+        도메인 관리자가 코딩스터디 계정을 대신 관리하는 경우(예: 코딩스터디 Apps 사용자) 조직에 사용자 지원을 제공하는 도메인 관리자 및 리셀러는 사용자의 코딩스터디 계정 정보(이메일 및 기타 데이터 포함)에 액세스할 수 있습니다. 도메인 관리자는 다음 작업을 수행할 수 있습니다.<br>
+        <br>
+        계정 관련 통계 조회(예: 사용자가 설치한 애플리케이션 관련 통계)<br>
+        계정 비밀번호 변경<br>
+        계정 액세스 일시 중지 또는 해지<br>
+        계정에 저장된 정보에 대한 액세스 또는 보관<br>
+        관련법, 규정, 법적 절차 또는 강제력이 있는 정부 요청을 준수하기 위해 계정 정보 수집<br>
+        정보 또는 개인정보 보호 설정을 삭제하거나 수정할 수 있는 사용자 기능 제한<br>
+        자세한 내용은 도메인 관리자의 개인정보처리방침을 참조하시기 바랍니다.<br>
+        <br>
+        외부 처리가 필요한 경우<br>
+        <br>
+        코딩스터디은 코딩스터디 계열사 또는 기타 신뢰할 수 있는 업체 및 개인에게 코딩스터디 지침을 기반으로 개인정보처리방침, 기타 기밀 및 보안 관련 조치를 준수하면서 코딩스터디의 개인정보 처리 업무를 대행하도록 개인정보를 제공할 수 있습니다.<br>
+        <br>
+        법률상 필요한 경우<br>
+        <br>
+        코딩스터디은 다음 목적을 위해 개인정보에 대한 액세스, 이용, 보존 또는 공개가 필요하다고 믿는 경우 코딩스터디 이외의 회사, 조직 또는 개인과 개인정보를 공유합니다.<br>
+        <br>
+        관련법, 규제, 법적 절차 또는 강제력이 있는 정부 요청 준수<br>
+        서비스 약관 위반 조사를 포함한 관련 서비스 약관 집행<br>
+        사기, 보안 또는 기술적 문제를 감지, 예방 또는 해결<br>
+        코딩스터디, 코딩스터디 사용자, 일반 대중의 권리, 재산, 안전을 위험 요소로부터 보호<br>
+        코딩스터디은 개인 식별이 불가능한 정보를 게시자, 광고주, 연결된 사이트 등의 코딩스터디 파트너와 공유하고 대중에 공개할 수 있습니다. 예를 들어 코딩스터디은 코딩스터디 서비스의 일반적인 사용 경향을 보여주는 정보를 대중에 공개할 수 있습니다.<br>
+        <br>
+        코딩스터디은 인수, 합병, 또는 자산의 매각이 있을 경우 관련 개인정보의 기밀을 계속 유지하며, 개인정보가 타사에 전달되어 해당 업체의 개인정보처리방침의 적용을 받기 전에 해당 사용자에게 미리 공지합니다.<br>
+        <br>
+        맨위로<br>
+        정보 보안<br>
+        <br>
+        코딩스터디은 보유하는 정보에 대한 무단 액세스, 변경, 공개 또는 삭제로부터 코딩스터디 및 코딩스터디 사용자를 보호하기 위해 노력합니다. 특히 코딩스터디은<br>
+        <br>
+        SSL을 사용하여 여러 코딩스터디 서비스를 암호화합니다.<br>
+        사용자가 코딩스터디 계정에 액세스할 때 2단계 인증을 제공하며 Chrome에서는 세이프 브라우징 기능을 제공합니다.<br>
+        시스템에 대한 무단 액세스를 감시하기 위해 물리적 보안 조치를 포함하여 코딩스터디의 정보 수집, 저장 및 처리 관행을 검토합니다.<br>
+        코딩스터디은 개인정보 접근 권한을 코딩스터디 대신 개인정보를 처리하기 위해 정보를 알아야 하는 코딩스터디 직원, 계약업자(위탁업자) 및 대리인으로 제한합니다. 이들은 계약을 통해 엄격한 기밀유지의 의무를 갖게 되며 이러한 의무를 어길 경우 제재를 받거나 계약이 해지될 수 있습니다.<br>
+        맨위로<br>
+        본 개인정보처리방침의 적용<br>
+        <br>
+        코딩스터디 개인정보처리방침은 YouTube, Android 기기에서 코딩스터디이 제공하는 서비스, 다른 사이트에서 제공되는 서비스(예: 코딩스터디 광고 서비스)를 포함해 코딩스터디 Inc. 및 제휴사가 제공하는 모든 서비스에 적용됩니다. 단, 본 개인정보처리방침을 포함하지 않는 별도의 개인정보처리방침이 있는 서비스에는 적용되지 않습니다.<br>
+        <br>
+        코딩스터디 개인정보처리방침은 타사 또는 개인이 제공하는 서비스(검색결과에 표시되는 제품 또는 사이트, 코딩스터디 서비스를 포함할 수 있는 사이트 또는 코딩스터디 서비스에서 링크된 다른 사이트 포함)에는 적용되지 않습니다. 코딩스터디 개인정보처리방침은 코딩스터디 서비스를 광고하고 관련 광고를 게재 또는 제공하기 위해 쿠키, 픽셀 태그 및 기타 기술을 사용하는 다른 회사 및 조직의 정보 관행에는 적용되지 않습니다.<br>
+        <br>
+        맨위로<br>
+        규정 준수 및 규제 기관과의 협력<br>
+        <br>
+        코딩스터디은 스스로의 개인정보처리방침 준수 여부를 정기적으로 검토합니다. 또한 유럽연합-미국 프라이버시 쉴드 프레임워크 등 여러 자체 규제 프레임워크를 준수합니다. 불만사항에 대한 공식 서면 신고서가 접수되면 코딩스터디은 신고서 발송자에게 연락하여 후속조치를 취합니다. 코딩스터디은 개인정보 전송과 관련하여 사용자와 직접 해결할 수 없는 불만사항이 있는 경우 문제 해결을 위해 현지 데이터 보호 당국을 비롯한 해당 규제 당국과 협력합니다.<br>
+        <br>
+        맨위로<br>
+        변경<br>
+        <br>
+        코딩스터디 개인정보처리방침은 수시로 변경될 수 있습니다. 코딩스터디은 사용자의 명시적인 동의 없이 본 개인정보처리방침에 설명된 사용자의 권한을 축소하지 않습니다. 코딩스터디은 개인정보처리방침에 변경이 있을 경우 해당 내용을 본 페이지에 게시하며 변경사항이 중대할 경우에는 일부 서비스에서 개인정보처리방침과 관련한 변경 고지 이메일을 발송하는 등 적극적으로 알립니다. 코딩스터디은 또한 사용자가 확인할 수 있도록 본 개인정보처리방침의 이전 버전을 보관합니다.<br>
+        <br>
+        맨위로<br>
+        특정 제품의 개인정보 보호관행<br>
+        <br>
+        다음 고지에서는 특정 코딩스터디 제품 및 서비스와 관련된 구체적인 개인정보 보호관행에 대해 설명합니다.<br>
+        <br>
+        Chrome 및 Chrome OS<br>
+        Play 북<br>
+        Payments<br>
+        Fiber<br>
+        Project Fi<br>
+        코딩스터디 Apps for Education<br>
+        가장 인기 있는 서비스에 대해 자세히 알아보려면 코딩스터디 제품 개인정보 보호 가이드를 방문하세요.<br>
+        <br>
+        맨위로<br>
+        기타 유용한 개인정보 보호 및 보안 관련 자료<br>
+        <br>
+        코딩스터디 정책 및 원칙 페이지에서는 다음과 같이 개인정보 보호 및 보안과 관련된 유용한 추가 자료를 제공합니다.<br>
+        <br>
+        기술 및 원칙에 관한 정보: 여기에서는 다음에 관한 자세한 정보를 제공합니다.<br>
+        코딩스터디이 쿠키를 사용하는 방식<br>
+        코딩스터디이 광고에 사용하는 기술<br>
+        코딩스터디이 얼굴과 같은 패턴을 인식하는 방법<br>
+        코딩스터디의 광고, 웹로그 분석, 소셜 제품을 사용하는 웹사이트를 방문할 때 코딩스터디에 어떤 데이터가 전송되는지 설명하는 페이지<br>
+        개인정보 보호 진단 도구를 사용하면 사용자의 주요 개인정보 설정을 간편하게 검토할 수 있습니다.<br>
+        인터넷을 안전하게 사용하는 방법에 관한 정보를 제공하는 코딩스터디 안전 센터<br>
+        <br>
+    </div>
+</div>
+
+</body>
+
+
+<div class="ui inverted vertical footer segment">
+
+    <div class="ui container">
+        <div class="ui stackable inverted divided equal height stackable grid">
+            <div class="three wide column">
+                <h4 class="ui inverted header">About</h4>
+                <div class="ui inverted link list">
+                    <a href="ContactUs.html" class="item">Contact Us</a>
+                    <a href="Service-terms.html" class="item">이용 약관</a>
+                    <a href="private-terms.html" class="item">개인정보 취급 방침</a>
+                </div>
+            </div>
+            <div class="three wide column">
+                <h4 class="ui inverted header">Services</h4>
+                <div class="ui inverted link list">
+                    <a href="Email-talk.html" class="item">상담 받기</a>
+                    <a href="#" class="item">리더신청</a>
+
+
+                </div>
+            </div>
+            <div class="seven wide column">
+                <h4 class="ui inverted header">CUSTOMER CENTER</h4>
+                <p>코딩스터디 고객센터</p>
+                <p>1577-1533</p>
+                <p>Email : codingStudy@cs.com</p>
+                <p>평일 10:00 - 22:00</p>
+                <p>주말 10:00 - 19:00</p>
+            </div>
+            <div class="button-section">
+                <button class="ui circular facebook icon button ">
+                    <i class="facebook icon"></i>
+                </button>
+                <button class="ui circular twitter icon button">
+                    <i class="twitter icon"></i>
+                </button>
+                <button class="ui circular linkedin icon button">
+                    <i class="linkedin icon"></i>
+                </button>
+                <button class="ui circular google plus icon button">
+                    <i class="google plus icon"></i>
+                </button>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>
+

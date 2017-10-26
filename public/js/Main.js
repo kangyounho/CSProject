@@ -23,3 +23,7 @@ $(document)
     })
 ;
 
+
+$('.fullscreen.modal')
+    .modal('show')
+;

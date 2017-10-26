@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./Semantic/semantic.css">
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script src="./Semantic/semantic.js"></script>
+    <script src="./Semantic/themes/default/assets/library/jquery.min.js"></script>
+    <script src="./Semantic/components/visibility.js"></script>
+    <script src="./Semantic/components/sidebar.js"></script>
+    <script src="./Semantic/components/transition.js"></script>
+    <script src="./js/Main.js"></script>
+    <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=s8FcRqKL2xmkynDTkTgi&submodules=geocoder"></script>
+
+
+    <link rel="stylesheet" href="css/Main.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/reset.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/site.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/container.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/grid.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/header.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/image.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/menu.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/divider.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/dropdown.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/segment.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/button.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/list.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/icon.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/sidebar.css">
+    <link rel="stylesheet" type="text/css" href="./Semantic/components/transition.css">
+    <title>CodingStudy</title>
+</head>
+<body>
+
+<div class="ui large top fixed hidden menu">
+    <div class="ui container">
+        <a class="item" href="index.html">Home</a>
+        <a class="item" href="review.html">Review</a>
+        <a class="item" href="best-reader.html">Leader</a>
+        <a class="item" href="ing-study.html">Study</a>
+        <div class="right menu">
+            <div class="item ui-button">
+                <a class="ui button" href="loginForm.html">Log in</a>
+            </div>
+            <div class="item ui-button">
+                <a class="ui primary button" href="Signup.html">Sign Up</a>
+
+            </div>
+            <div class="top-sns-button">
+                <button class="ui circular facebook icon button ">
+                    <i class="facebook icon"></i>
+                </button>
+                <button class="ui circular twitter icon button">
+                    <i class="twitter icon"></i>
+                </button>
+                <button class="ui circular linkedin icon button">
+                    <i class="linkedin icon"></i>
+                </button>
+                <button class="ui circular google plus icon button">
+                    <i class="google plus icon"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="ui vertical inverted sidebar menu">
+    <a class="item" href="index.html">Home</a>
+    <a class="item" href="review.html">Review</a>
+    <a class="item" href="reader-wanted.html">Leader</a>
+    <a class="item" href="ing-study.html">Study</a>
+    <a class="item" href="loginForm.html">Login</a>
+    <a class="item" href="Signup.html">Signup</a>
+    <div class="top-sns-button">
+        <button class="ui circular facebook icon button ">
+            <i class="facebook icon"></i>
+        </button>
+        <button class="ui circular twitter icon button">
+            <i class="twitter icon"></i>
+        </button>
+        <button class="ui circular linkedin icon button">
+            <i class="linkedin icon"></i>
+        </button>
+        <button class="ui circular google plus icon button">
+            <i class="google plus icon"></i>
+        </button>
+    </div>
+</div>
+
+
+<!-- 페이지 상단 메뉴부분 -->
+<div class="pusher">
+    <div class="ui inverted vertical masthead center aligned segment" id="photo">
+
+        <div class="ui container">
+            <div class="ui large secondary inverted pointing menu">
+
+                <a class="item">Home</a>
+                <a class="item">review</a>
+                <a class="item">Leader</a>
+                <a class="item">Study</a>
+                <div class="right item button-ui">
+                    <a class="ui inverted button" id="button-ui" href="loginForm.html">Log in</a>
+                    <a class="ui inverted button" href="Signup.html">Sign Up</a>
+
+                </div>
+                <div class="top-sns-button">
+                    <button class="ui circular facebook icon button ">
+                        <i class="facebook icon"></i>
+                    </button>
+                    <button class="ui circular twitter icon button">
+                        <i class="twitter icon"></i>
+                    </button>
+                    <button class="ui circular linkedin icon button">
+                        <i class="linkedin icon"></i>
+                    </button>
+                    <button class="ui circular google plus icon button">
+                        <i class="google plus icon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 페이지 상단 메인부분 -->
+        <div class="ui text container">
+            <h1 class="ui inverted header">
+                코딩을 시작하세요!
+            </h1>
+            <h2>Coding Study</h2>
+            <div class="ui huge primary button ing-button">진행중인 스터디 바로가기 <i class="right arrow icon"></i></div>
+        </div>
+
+    </div>
+    <!-- Contact Us 섹션 -->
+    <section>
+        <div class="best-leader-title">무엇이 궁금하신가요? </div>
+        <div class="section-body" style="padding-top: 100px">
+            <form class="ui form">
+                <h4 class="ui dividing header">이메일 문의하기</h4>
+                <div class="field">
+                    <label>이름</label>
+                    <div class="two fields">
+                        <div class="field">
+                            <input type="text" name="shipping[first-name]" placeholder="Name">
+                        </div>
+                    </div>
+                </div>
+                <div class="field">
+                    <label>주소</label>
+                    <div class="fields">
+                        <div class="twelve wide field">
+                            <input type="text" name="shipping[address]" placeholder="Address">
+                        </div>
+                        <div class="four wide field">
+                            <input type="text" name="shipping[address-2]" placeholder="우편 번호">
+                        </div>
+                    </div>
+                </div>
+                <div class="field">
+                    <label>답변받을 이메일 주소</label>
+                    <div class="fields">
+                        <div class="twelve wide field">
+                            <input type="text" name="shipping[address]" placeholder="example@example.com">
+                        </div>
+                    </div>
+                </div>
+                <div class="two fields">
+                    <div class="field">
+                        <label>문의 내용</label>
+                        <select class="ui fluid dropdown">
+                            <option value="">이용 관련</option>
+                            <option value="AL">불편 사항</option>
+                            <option value="AK">제휴 문의</option>
+                            <option value="AZ">스터디 문의</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label>Country</label>
+                        <div class="ui fluid search selection dropdown">
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <h4 class="ui dividing header">상세 문의내용</h4>
+                <div class="field">
+
+                </div>
+
+                    <div class="ui form">
+                        <div class="field">
+                            <label>본문</label>
+                            <textarea></textarea>
+                        </div>
+
+
+                    </div>
+                <div class="ui button" tabindex="0">제출</div>
+            </form>
+        </div>
+    </section>
+
+
+    <div class="section-body statistic-body">
+        <div class="statistic-title">
+            그동안 <span class="point"> 여러분</span>의 성원에 힘입어<br>
+            코딩스터디가 누적회원수 <span class="point"> 45,000명 </span>을 달성하였습니다.<br>
+            앞으로도 코딩교육을 위해 앞장서는 코딩스터디가 되겠습니다.<br>
+        </div>
+        <div class="ui horizontal statistics statistic-section">
+            <div class="statistic">
+                <div class="value">
+                    45,000
+                </div>
+                <div class="label">Visning </div>
+            </div>
+            <div class="statistic">
+                <div class="value">
+                    40,000
+                </div>
+                <div class="label">Sign </div>
+            </div>
+            <div class="statistic">
+                <div class="value">
+                    10,000
+                </div>
+                <div class="label">Stduy </div>
+            </div>
+            <div class="statistic">
+                <div class="value">
+                    300
+                </div>
+                <div class="label">Leader </div>
+            </div>
+        </div>
+        <iframe class="movie" width="950" height="500" src="https://www.youtube.com/embed/5g7JMXLlOrY" frameborder="0" gesture="media" allowfullscreen></iframe>
+    </div>
+
+    <section>
+        <div class="leader-wanted">
+            <div class="ui vertical stripe segment ">
+                <div class="ui text container leader-wanted">
+                    <div class="header-section"><span class="study-leader">코딩스터디의 리더</span>가 되어주세요.
+                        <div class="leader-wanted-focus">내가 편한시간 지역등을 골라 스터디를 진행할 수 있습니다. 리더가되어 코딩을 배우기 시작한 사람들을 성장시켜주세요. 코딩스터디에서 드리는 좋은 혜택을 통해 한단계 더 성장하실 수 있습니다.</div>
+                        <img class="leader-wanted-img" src="img/code-2558220_1920.jpg">
+                        <a class="ui large button">리더 신청하기</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+</body>
+
+
+<div class="ui inverted vertical footer segment">
+
+    <div class="ui container">
+        <div class="ui stackable inverted divided equal height stackable grid">
+            <div class="three wide column">
+                <h4 class="ui inverted header">About</h4>
+                <div class="ui inverted link list">
+                    <a href="ContactUs.html" class="item">Contact Us</a>
+                    <a href="Service-terms.html" class="item">이용 약관</a>
+                    <a href="#" class="item">개인정보 취급 방침</a>
+                </div>
+            </div>
+            <div class="three wide column">
+                <h4 class="ui inverted header">Services</h4>
+                <div class="ui inverted link list">
+                    <a href="Email-talk.html" class="item">상담 받기</a>
+                    <a href="#" class="item">리더신청</a>
+
+
+                </div>
+            </div>
+            <div class="seven wide column">
+                <h4 class="ui inverted header">CUSTOMER CENTER</h4>
+                <p>코딩스터디 고객센터</p>
+                <p>1577-1533</p>
+                <p>Email : codingStudy@cs.com</p>
+                <p>평일 10:00 - 22:00</p>
+                <p>주말 10:00 - 19:00</p>
+            </div>
+            <div class="button-section">
+                <button class="ui circular facebook icon button ">
+                    <i class="facebook icon"></i>
+                </button>
+                <button class="ui circular twitter icon button">
+                    <i class="twitter icon"></i>
+                </button>
+                <button class="ui circular linkedin icon button">
+                    <i class="linkedin icon"></i>
+                </button>
+                <button class="ui circular google plus icon button">
+                    <i class="google plus icon"></i>
+                </button>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>
+
