@@ -27,3 +27,8 @@ $(document)
 $('.fullscreen.modal')
     .modal('show')
 ;
+
+
+$('select.dropdown')
+    .dropdown()
+;
