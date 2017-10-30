@@ -232,16 +232,16 @@ img.ui.bordered.image {
 .ui.small.images img,
 .ui.small.images svg,
 .ui.small.image {
-  width: 150px;
-  height: auto;
+  width: 600px;
+  height: 200px;
   font-size: 0.92857143rem;
 }
 .ui.medium.images .image,
 .ui.medium.images img,
 .ui.medium.images svg,
 .ui.medium.image {
-  width: 300px;
-  height: auto;
+  width: 600px;
+  height: 400px;
   font-size: 1rem;
 }
 .ui.large.images .image,
@@ -256,16 +256,16 @@ img.ui.bordered.image {
 .ui.big.images img,
 .ui.big.images svg,
 .ui.big.image {
-  width: 600px;
-  height: auto;
+  width: 200px;
+  height: 200px;
   font-size: 1.28571429rem;
 }
 .ui.huge.images .image,
 .ui.huge.images img,
 .ui.huge.images svg,
 .ui.huge.image {
-  width: 800px;
-  height: auto;
+  width: 200px;
+  height: 200px;
   font-size: 1.42857143rem;
 }
 .ui.massive.images .image,

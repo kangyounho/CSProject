@@ -1,0 +1,19 @@
+@import "Main.css";
+
+body {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    box-sizing: inherit;
+    display: block;
+
+}
+.rounded-circle {
+
+    border-radius: 70px;
+}
+
+.col-lg-4 {
+
+    text-align: center;
+}

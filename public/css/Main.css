@@ -12,7 +12,7 @@ header {
 body {
     min-width: 1000px;
     height: 1000px;
-    margin: 0px;
+
 
 }
 
@@ -24,6 +24,30 @@ footer {
 span {
     font-size: 28px;
     line-height: 30px;
+
+}
+#carouselExampleControls {
+    width: 500px;
+    height: 300px;
+    float: right;
+
+}
+
+.leader-photo {
+    float: right;
+    height: 1000px;
+
+
+
+
+}
+
+.reader-photo-slide {
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    width: 500px;
+    height: 300px;
 
 }
 
@@ -311,6 +335,11 @@ span {
 
 
 
+.reader-photo {
+    height: 400px;
+    width: 600px;
+    text-align: center;
+}
 
 
 
