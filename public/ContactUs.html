@@ -14,8 +14,6 @@
     <script src="./Semantic/components/transition.js"></script>
     <script src="./js/Main.js"></script>
     <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=s8FcRqKL2xmkynDTkTgi&submodules=geocoder"></script>
-
-
     <link rel="stylesheet" href="css/Main.css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="./Semantic/components/reset.css">
@@ -37,20 +35,24 @@
 </head>
 <body>
 
-<div class="ui large top fixed hidden menu">
-    <div class="ui container">
-        <a class="item" href="index.html">Home</a>
-        <a class="item" href="review.html">Review</a>
-        <a class="item" href="leader-introduce.html">Leader</a>
-        <a class="item" href="ing-study.html">Study</a>
+
+        <div class="ui large top fixed hidden menu">
+            <div class="ui container">
+                    <a class="item" href="index.html">Home</a>
+                    <a class="item" href="review.html">Review</a>
+                    <a class="item" href="leader-introduce.html">Leader</a>
+                    <a class="item" href="ing-study.html">Study</a>
         <div class="right menu">
+                 <div class="item ui-button">
+                     <a class="ui button" href="loginForm.html">Log in</a>
+                 </div>
+
             <div class="item ui-button">
-                <a class="ui button" href="loginForm.html">Log in</a>
-            </div>
-            <div class="item ui-button">
-                <a class="ui primary button" href="Signup.html">Sign Up</a>
+                <a class="ui primary button" href="Signup.html">Sign Up
+                </a>
 
             </div>
+
             <div class="top-sns-button">
                 <button class="ui circular facebook icon button ">
                     <i class="facebook icon"></i>
@@ -67,32 +69,32 @@
             </div>
         </div>
     </div>
-
 </div>
 
 
-<div class="ui vertical inverted sidebar menu">
-    <a class="item" href="index.html">Home</a>
-    <a class="item" href="review.html">Review</a>
-    <a class="item" href="leader-wanted.html">Leader</a>
-    <a class="item" href="ing-study.html">Study</a>
-    <a class="item" href="loginForm.html">Login</a>
-    <a class="item" href="Signup.html">Signup</a>
-    <div class="top-sns-button">
-        <button class="ui circular facebook icon button ">
-            <i class="facebook icon"></i>
-        </button>
-        <button class="ui circular twitter icon button">
-            <i class="twitter icon"></i>
-        </button>
-        <button class="ui circular linkedin icon button">
-            <i class="linkedin icon"></i>
-        </button>
-        <button class="ui circular google plus icon button">
-            <i class="google plus icon"></i>
-        </button>
-    </div>
-</div>
+            <div class="ui vertical inverted sidebar menu">
+                        <a class="item" href="index.html">Home</a>
+                        <a class="item" href="review.html">Review</a>
+                        <a class="item" href="leader-wanted.html">Leader</a>
+                        <a class="item" href="ing-study.html">Study</a>
+                        <a class="item" href="loginForm.html">Login</a>
+                        <a class="item" href="Signup.html">Signup</a>
+
+                <div class="top-sns-button">
+                    <button class="ui circular facebook icon button ">
+                        <i class="facebook icon"></i>
+                    </button>
+                    <button class="ui circular twitter icon button">
+                        <i class="twitter icon"></i>
+                    </button>
+                    <button class="ui circular linkedin icon button">
+                        <i class="linkedin icon"></i>
+                    </button>
+                    <button class="ui circular google plus icon button">
+                        <i class="google plus icon"></i>
+                    </button>
+                </div>
+            </div>
 
 
 <!-- 페이지 상단 메뉴부분 -->
@@ -101,17 +103,16 @@
 
         <div class="ui container">
             <div class="ui large secondary inverted pointing menu">
-
                 <a class="item">Home</a>
                 <a class="item">review</a>
                 <a class="item">Leader</a>
                 <a class="item">Study</a>
-                <div class="right item button-ui">
-                    <a class="ui inverted button" id="button-ui" href="loginForm.html">Log in</a>
-                    <a class="ui inverted button" href="Signup.html">Sign Up</a>
+                    <div class="right item button-ui">
+                        <a class="ui inverted button" id="button-ui" href="loginForm.html">Log in</a>
+                        <a class="ui inverted button" href="Signup.html">Sign Up</a>
+                    </div>
 
-                </div>
-                <div class="top-sns-button">
+                    <div class="top-sns-button">
                     <button class="ui circular facebook icon button ">
                         <i class="facebook icon"></i>
                     </button>
@@ -133,16 +134,18 @@
             <h1 class="ui inverted header">
                 코딩을 시작하세요!
             </h1>
+
             <h2>Coding Study</h2>
             <div class="ui huge primary button ing-button">진행중인 스터디 바로가기 <i class="right arrow icon"></i></div>
         </div>
 
-    </div>
+         </div>
+
     <!-- Contact Us 섹션 -->
     <section>
-        <div class="best-leader-title">Contact Us </div>
-        <div class="section-body">
-            <div id="map" style="width:100%;height:400px;"></div>
+           <div class="best-leader-title">Contact Us </div>
+           <div class="section-body">
+             <div id="map" style="width:100%;height:400px;"></div>
                 <script>
                     var map = new naver.maps.Map('map');
                     var myaddress = '서울특별시 마포구 신수동 63-14';
@@ -172,24 +175,25 @@
                             content: '<h4> CodingStudy</h4><a href="localhost:3303" target="_blank"></a>'
                         });
                     });
-
                 </script>
-            <div class="adress">
-            <span class="adress-Title">Adress   :</span>서울특별시 마포구 백범로 23 거구장<br>
-             <span class="adress-Title">Parcel Addressing   :</span> 서울특별시 마포구 신수동 63-14<br>
-                <span class="adress-Title">En-Adress   :</span>  23, Baekbeom-ro, Mapo-gu, Seoul, Republic of Korea</span>
+             <div class="adress">
+                <span class="adress-Title">Adress   :</span>서울특별시 마포구 백범로 23 거구장<br>
+                    <span class="adress-Title">Parcel Addressing   :</span> 서울특별시 마포구 신수동 63-14<br>
+                      <span class="adress-Title">En-Adress   :</span>  23, Baekbeom-ro, Mapo-gu, Seoul, Republic of Korea</span>
             </div>
-        </div>
+          </div>
 
     </section>
 
 
     <div class="section-body statistic-body">
+
         <div class="statistic-title">
             그동안 <span class="point"> 여러분</span>의 성원에 힘입어<br>
             코딩스터디가 누적회원수 <span class="point"> 45,000명 </span>을 달성하였습니다.<br>
             앞으로도 코딩교육을 위해 앞장서는 코딩스터디가 되겠습니다.<br>
         </div>
+
         <div class="ui horizontal statistics statistic-section">
             <div class="statistic">
                 <div class="value">
@@ -197,18 +201,21 @@
                 </div>
                 <div class="label">Visning </div>
             </div>
+
             <div class="statistic">
                 <div class="value">
                     40,000
                 </div>
                 <div class="label">Sign </div>
             </div>
+
             <div class="statistic">
                 <div class="value">
                     10,000
                 </div>
                 <div class="label">Stduy </div>
             </div>
+
             <div class="statistic">
                 <div class="value">
                     300
@@ -216,8 +223,9 @@
                 <div class="label">Leader </div>
             </div>
         </div>
+
         <iframe class="movie" width="950" height="500" src="https://www.youtube.com/embed/5g7JMXLlOrY" frameborder="0" gesture="media" allowfullscreen></iframe>
-    </div>
+     </div>
 
     <section>
         <div class="leader-wanted">
@@ -250,15 +258,15 @@
                     <a href="#" class="item">개인정보 취급 방침</a>
                 </div>
             </div>
+
             <div class="three wide column">
                 <h4 class="ui inverted header">Services</h4>
                 <div class="ui inverted link list">
                     <a href="Email-talk.html" class="item">상담 받기</a>
                     <a href="leader-wanted.html" class="item">리더신청</a>
-
-
                 </div>
             </div>
+
             <div class="seven wide column">
                 <h4 class="ui inverted header">CUSTOMER CENTER</h4>
                 <p>코딩스터디 고객센터</p>
@@ -283,9 +291,6 @@
                 </button>
             </div>
         </div>
-
-
     </div>
-
 </div>
 

@@ -22,14 +22,79 @@ footer {
 }
 
 span {
-    font-size: 28px;
+    font-size: 20px;
     line-height: 30px;
 
 }
+.leader-profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+.leader-introduce-title {
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
+.leader-introduce {
+    width: 700px;
+    line-height: 2em;
+
+
+}
+
+.header {
+    font-weight: bold;
+    font-size: 20px;
+    color: #717579;
+}
+
+
+
+.leader-study-info {
+    display: inline-block;
+}
+
+.leader-study-info .item {
+    line-height: 3em;
+
+
+}
+
+.leader-page-body {
+    width: 1000px;
+    height: auto;
+    margin: 30px 200px 60px 250px;
+    display: inline-block;
+    border-top: 1px solid #CACBCD;
+
+
+
+
+}
+
+.section-line {
+    width: 800px;
+    border-top: 1px #717579 solid;
+}
+
+.leader-introduce {
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+
 #carouselExampleControls {
-    width: 500px;
+    width: 400px;
     height: 300px;
-    float: right;
+    padding-left: 10px;
 
 }
 
@@ -37,16 +102,10 @@ span {
     float: right;
     height: 1000px;
 
-
-
-
 }
 
 .reader-photo-slide {
-    margin-left: 30px;
-    margin-right: 30px;
-    text-align: center;
-    width: 500px;
+    width: 400px;
     height: 300px;
 
 }
@@ -163,22 +222,16 @@ span {
 
 }
 
-.best-leader-header {
-    font-size: 10px;
-    line-height: 15px;
-
-}
-
 
 .best-leader-title {
-    margin-top: 50px;
-
-    text-align: center;
-    font-size: 50px;
-    font-weight: bold;
-    color: #717579;
+    margin-top: 30px;
 
 }
+
+.featurette-heading {
+    text-align: center;
+}
+
 
 .ing-study-title {
     text-align: center;
