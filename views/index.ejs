@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <% include ./script.ejs%>
+    <title><%= title %></title>
+</head>
+<body>
+
+    <% include ./header.ejs %>
+    <!-- 베스트리더 섹션 -->
+   <% include ./best-leader.ejs %>
+<section>
+    <!-- 진행중인 스터디 섹션-->
+   <% include ./ing-study.ejs %>
+</section>
+    <!-- 스터디광고 및 동영상 -->
+  <% include ./Counting.ejs %>
+    <!-- 리더를 모집합니다 -->
+  <% include ./leader-AD.ejs %>
+
+</body>
+  <% include ./footer.ejs %>
+</html>

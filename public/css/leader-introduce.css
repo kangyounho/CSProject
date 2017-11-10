@@ -1,19 +1,49 @@
 @import "Main.css";
 
 body {
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    box-sizing: inherit;
-    display: block;
+
 
 }
+
+.leader-page-body {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-left: 400px;
+    padding-right: 400px;
+    margin-top: 100px;
+
+}
+
 .rounded-circle {
 
     border-radius: 70px;
 }
 
-.col-lg-4 {
+.leader-title-section {
 
-    text-align: center;
+    margin-bottom: 100px;
+
+}
+
+#invite-button {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 300px;
+
+}
+
+.leader-study-info {
+    margin-bottom: 100px;
+}
+
+.leader-study-info > li{
+    text-align: left;
+    font-size: 20px;
+    line-height: 2.0em;
+}
+
+
+.leader-study-info > li > span {
+    font-weight: bold;
 }

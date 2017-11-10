@@ -43,9 +43,9 @@ span {
 }
 
 .leader-introduce {
-    width: 700px;
-    line-height: 2em;
 
+    line-height: 2em;
+    text-align: center;
 
 }
 
@@ -57,38 +57,14 @@ span {
 
 
 
-.leader-study-info {
-    display: inline-block;
-}
-
-.leader-study-info .item {
-    line-height: 3em;
 
 
-}
-
-.leader-page-body {
-    width: 1000px;
-    height: auto;
-    margin: 30px 200px 60px 250px;
-    display: inline-block;
-    border-top: 1px solid #CACBCD;
-
-
-
-
-}
 
 .section-line {
     width: 800px;
     border-top: 1px #717579 solid;
 }
 
-.leader-introduce {
-    font-size: 15px;
-    font-weight: bold;
-
-}
 
 
 #carouselExampleControls {
@@ -98,17 +74,8 @@ span {
 
 }
 
-.leader-photo {
-    float: right;
-    height: 1000px;
 
-}
 
-.reader-photo-slide {
-    width: 400px;
-    height: 300px;
-
-}
 
 .terms-title {
     text-align: center;
@@ -220,11 +187,15 @@ span {
     width: 100px;
     border-radius: 50px;
 
+
 }
 
 
 .best-leader-title {
     margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    color: #717579;
 
 }
 
@@ -427,7 +398,7 @@ span {
     padding: 8em 0em;
 }
 .ui.vertical.stripe h3 {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 .ui.vertical.stripe .button + h3,
 .ui.vertical.stripe p + h3 {

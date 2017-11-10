@@ -1,5 +1,6 @@
 require = ('bootstrap');
 require = ('../css/main.css');
+require = ('../Server.js');
 
 
 $(document)
