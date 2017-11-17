@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <% include view/script.ejs%>
+    <title><%=title%></title>
+    <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=s8FcRqKL2xmkynDTkTgi&submodules=geocoder"></script>
+</head>
+<body>
+
+
+<% include view/header.ejs %>
+
+    <section>
+           <div class="best-leader-title">Contact Us </div>
+           <div class="section-body">
+             <div id="map" style="width:100%;height:400px;"></div>
+                <script>
+                    var map = new naver.maps.Map('map');
+                    var myaddress = '서울특별시 마포구 신수동 63-14';
+                    naver.maps.Service.geocode({address: myaddress}, function(status, response) {
+                        if (status !== naver.maps.Service.Status.OK) {
+                            return alert(myaddress + '의 검색 결과가 없거나 기타 네트워크 에러');
+                        }
+                        var result = response.result;
+
+                        var myaddr = new naver.maps.Point(result.items[0].point.x, result.items[0].point.y);
+                        map.setCenter(myaddr);
+
+                        var marker = new naver.maps.Marker({
+                            position: myaddr,
+                            map: map
+                        });
+
+                        naver.maps.Event.addListener(marker, "click", function(e) {
+                            if (infowindow.getMap()) {
+                                infowindow.close();
+                            } else {
+                                infowindow.open(map, marker);
+                            }
+                        });
+
+                        var infowindow = new naver.maps.InfoWindow({
+                            content: '<h4> CodingStudy</h4><a href="localhost:3303" target="_blank"></a>'
+                        });
+                    });
+                </script>
+             <div class="adress">
+                <span class="adress-Title">Adress   :</span>서울특별시 마포구 백범로 23 거구장<br>
+                    <span class="adress-Title">Parcel Addressing   :</span> 서울특별시 마포구 신수동 63-14<br>
+                      <span class="adress-Title">En-Adress   :</span>  23, Baekbeom-ro, Mapo-gu, Seoul, Republic of Korea</span>
+            </div>
+          </div>
+</section>
+
+<!-- 스터디광고 및 동영상 섹션 -->
+<% include view/Counting.ejs %>
+<!-- 리더를 모집합니다 -->
+<% include view/leader-AD.ejs %>
+
+</body>
+<% include view/footer.ejs %>
+</html>

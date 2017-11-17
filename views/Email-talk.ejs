@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <% include view/script.ejs%>
+    <title><%= title %></title>
+</head>
+<body>
+<% include view/header.ejs %>
+    <!-- Contact Us 섹션 -->
+    <section>
+        <div class="best-leader-title">무엇이 궁금하신가요? </div>
+        <div class="section-body" style="padding-top: 100px">
+            <form class="ui form">
+                <h4 class="ui dividing header">이메일 문의하기</h4>
+                <div class="field">
+                    <label>이름</label>
+                    <div class="two fields">
+                        <div class="field">
+                            <input type="text" name="shipping[first-name]" placeholder="Name">
+                        </div>
+                    </div>
+                </div>
+                <div class="field">
+                    <label>주소</label>
+                    <div class="fields">
+                        <div class="twelve wide field">
+                            <input type="text" name="shipping[address]" placeholder="Address">
+                        </div>
+                        <div class="four wide field">
+                            <input type="text" name="shipping[address-2]" placeholder="우편 번호">
+                        </div>
+                    </div>
+                </div>
+                <div class="field">
+                    <label>답변받을 이메일 주소</label>
+                    <div class="fields">
+                        <div class="twelve wide field">
+                            <input type="text" name="shipping[address]" placeholder="example@example.com">
+                        </div>
+                    </div>
+                </div>
+                <div class="two fields">
+                    <div class="field">
+                        <label>문의 내용</label>
+                        <select class="ui fluid dropdown">
+                            <option value="">이용 관련</option>
+                            <option value="AL">불편 사항</option>
+                            <option value="AK">제휴 문의</option>
+                            <option value="AZ">스터디 문의</option>
+                        </select>
+                    </div>
+
+                </div>
+                <h4 class="ui dividing header">상세 문의내용</h4>
+                <div class="field">
+                </div>
+
+                    <div class="ui form">
+                        <div class="field">
+                            <label>본문</label>
+                            <textarea></textarea>
+                        </div>
+                    </div>
+                <div class="ui button" tabindex="0">제출</div>
+            </form>
+        </div>
+    </section>
+
+    <!-- 스터디광고 및 동영상 섹션 -->
+    <% include view/Counting.ejs %>
+    <!-- 리더를 모집합니다 -->
+    <% include view/leader-AD.ejs %>
+
+
+</body>
+<% include view/footer.ejs %>
+</html>
+
+

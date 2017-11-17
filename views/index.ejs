@@ -2,23 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <% include ./script.ejs%>
+    <% include view/script.ejs%>
     <title><%= title %></title>
 </head>
 <body>
-
-    <% include ./header.ejs %>
+  <% include view/header.ejs %>
     <!-- 베스트리더 섹션 -->
    <% include ./best-leader.ejs %>
-<section>
+<secion>
     <!-- 진행중인 스터디 섹션-->
    <% include ./ing-study.ejs %>
-</section>
+</secion>
     <!-- 스터디광고 및 동영상 섹션 -->
-  <% include ./Counting.ejs %>
+  <% include view/Counting.ejs %>
     <!-- 리더를 모집합니다 -->
-  <% include ./leader-AD.ejs %>
+  <% include view/leader-AD.ejs %>
 
 </body>
-  <% include ./footer.ejs %>
+  <% include view/footer.ejs %>
 </html>
