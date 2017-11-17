@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <% include view/script.ejs%>
     <title><%= title %></title>
+    <link rel="stylesheet" type="text/css" href="public/css/photo-area.css">
 </head>
 <body>
   <% include view/header.ejs %>
@@ -13,10 +14,16 @@
     <!-- 진행중인 스터디 섹션-->
    <% include ./ing-study.ejs %>
 </secion>
+
     <!-- 스터디광고 및 동영상 섹션 -->
+
   <% include view/Counting.ejs %>
     <!-- 리더를 모집합니다 -->
   <% include view/leader-AD.ejs %>
+
+
+</div>
+
 
 </body>
   <% include view/footer.ejs %>
